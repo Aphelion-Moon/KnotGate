@@ -10,10 +10,12 @@ Module containing ships made by the Wolfgate community
 ### Prototypes
 
 - [`Resources/Prototypes/_WF/Community/executive.yml`](../../../Resources/Prototypes/_WF/Community/executive.yml)
+- [`Resources/Prototypes/_WF/Community/snake_eater.yml`](../../../Resources/Prototypes/_WF/Community/snake_eater.yml)
 
 ### Shared maps
 
 - [`Resources/SharedMaps/_WF/Community/executive.yml`](../../../Resources/SharedMaps/_WF/Community/executive.yml)
+- [`Resources/SharedMaps/_WF/Community/snake_eater.yml`](../../../Resources/SharedMaps/_WF/Community/snake_eater.yml)
 
 ## Non-modular edits
 
