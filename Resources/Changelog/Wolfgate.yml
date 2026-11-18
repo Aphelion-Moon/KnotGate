@@ -7912,3 +7912,12 @@ Entries:
   id: 100502
   time: '2026-11-18T09:32:24.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/721
+- author: ImogenOC
+  changes:
+    - type: Tweak
+      message: >-
+        Status alerts move to the left of the chat box when it is expanded, so
+        they never get pushed off screen.
+  id: 100503
+  time: '2026-11-18T11:03:48.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/712
