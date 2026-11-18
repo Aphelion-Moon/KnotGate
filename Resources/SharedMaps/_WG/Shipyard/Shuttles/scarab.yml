@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 291.0.0
+  engineVersion: 291.0.4
   forkId: wolfgate-mapping
-  forkVersion: 20261106-021336-f99d2cb-tm508-6eaf4386
-  time: 11/12/2026 18:07:17
-  entityCount: 2138
+  forkVersion: 20261117-170338-3118dcd-0c9797b9
+  time: 11/18/2026 19:15:20
+  entityCount: 2139
 maps: []
 grids:
 - 2
@@ -72,7 +72,7 @@ entities:
       name: grid
     - type: Transform
       parent: invalid
-      pos: 10,26
+      pos: -9,1
     - type: MapGrid
       chunks:
         -1,1:
@@ -1194,11 +1194,6 @@ entities:
       pos: 13.5,2.5
 - proto: AirlockShuttle
   entities:
-  - uid: 533
-    components:
-    - type: Transform
-      parent: 2
-      pos: 0.5,-23.5
   - uid: 537
     components:
     - type: Transform
@@ -1208,12 +1203,17 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: 1.5,-23.5
+      pos: 0.5,-23.5
   - uid: 580
     components:
     - type: Transform
       parent: 2
       pos: 17.5,-23.5
+  - uid: 2139
+    components:
+    - type: Transform
+      parent: 2
+      pos: 1.5,-23.5
 - proto: AirSensor
   entities:
   - uid: 1478
@@ -1495,6 +1495,11 @@ entities:
       pos: 15.5,-18.5
 - proto: AtmosDeviceFanDirectional
   entities:
+  - uid: 533
+    components:
+    - type: Transform
+      parent: 2
+      pos: 0.5,-23.5
   - uid: 575
     components:
     - type: Transform
@@ -6118,6 +6123,8 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.529234,-8.359371
+    - type: Physics
+      canCollide: False
 - proto: ClothingHandsGlovesLatex
   entities:
   - uid: 1253
@@ -6125,6 +6132,8 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.451109,-9.499996
+    - type: Physics
+      canCollide: False
 - proto: ClothingMaskBreathMedical
   entities:
   - uid: 1254
@@ -6132,6 +6141,8 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.513609,-9.312496
+    - type: Physics
+      canCollide: False
 - proto: ClothingMaskSterile
   entities:
   - uid: 1248
@@ -6139,6 +6150,8 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.529234,-9.078121
+    - type: Physics
+      canCollide: False
 - proto: ComputerAlert
   entities:
   - uid: 1100
@@ -6739,6 +6752,8 @@ entities:
     - type: Transform
       parent: 2
       pos: 4.4935493,11.511303
+    - type: Physics
+      canCollide: False
 - proto: GasMixerOnFlipped
   entities:
   - uid: 238
@@ -13401,11 +13416,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.42621,1.1606636
+    - type: Physics
+      canCollide: False
   - uid: 1857
     components:
     - type: Transform
       parent: 2
       pos: 10.566835,1.1919136
+    - type: Physics
+      canCollide: False
 - proto: WGRopeHempCoil
   entities:
   - uid: 1858
@@ -13413,11 +13432,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 11.55121,1.0825386
+    - type: Physics
+      canCollide: False
   - uid: 1859
     components:
     - type: Transform
       parent: 2
       pos: 11.566835,1.2544136
+    - type: Physics
+      canCollide: False
 - proto: WGRopeSteelCableCoil
   entities:
   - uid: 1860
@@ -13425,11 +13448,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 11.598085,1.4731636
+    - type: Physics
+      canCollide: False
   - uid: 1861
     components:
     - type: Transform
       parent: 2
       pos: 11.598085,1.6450386
+    - type: Physics
+      canCollide: False
 - proto: WGRopeSyntheticCoil
   entities:
   - uid: 1862
@@ -13437,11 +13464,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 10.58246,1.4731636
+    - type: Physics
+      canCollide: False
   - uid: 1863
     components:
     - type: Transform
       parent: 2
       pos: 10.58246,1.7075386
+    - type: Physics
+      canCollide: False
 - proto: WGRopeTowCableCoil
   entities:
   - uid: 1864
@@ -13449,11 +13480,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 12.504335,1.0044136
+    - type: Physics
+      canCollide: False
   - uid: 1865
     components:
     - type: Transform
       parent: 2
       pos: 12.535585,1.3169136
+    - type: Physics
+      canCollide: False
 - proto: WGShipHarpoon
   entities:
   - uid: 739
@@ -13461,11 +13496,15 @@ entities:
     - type: Transform
       parent: 2
       pos: 0.5867748,17.454006
+    - type: Physics
+      canCollide: False
   - uid: 740
     components:
     - type: Transform
       parent: 2
       pos: 18.5399,17.524319
+    - type: Physics
+      canCollide: False
 - proto: WGShipHarpoonTurret
   entities:
   - uid: 737
