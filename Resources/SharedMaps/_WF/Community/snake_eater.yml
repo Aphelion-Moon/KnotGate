@@ -2,9 +2,9 @@ meta:
   format: 7
   category: Grid
   engineVersion: 291.0.4
-  forkId: ""
-  forkVersion: ""
-  time: 11/17/2026 04:14:10
+  forkId: wolfgate-mapping
+  forkVersion: 20261112-103730-dc9573c-239153a5
+  time: 11/17/2026 04:25:57
   entityCount: 1430
 maps: []
 grids:
@@ -586,7 +586,6 @@ entities:
     components:
     - type: Transform
       parent: 1
-      rot: 3.141592653589793 rad
       pos: -1.5,-13.5
   - uid: 8
     components:
