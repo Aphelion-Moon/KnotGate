@@ -7921,3 +7921,13 @@ Entries:
   id: 100503
   time: '2026-11-18T11:03:48.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/712
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        Added ThalerLink, a PDA banking app: withdraw, transfer and deposit
+        thalers using the ID card in your PDA, with a per-round withdrawal
+        allowance.
+  id: 100504
+  time: '2026-11-18T14:07:59.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/661
