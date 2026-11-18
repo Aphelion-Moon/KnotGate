@@ -1,15 +1,15 @@
 # Vessel prototype made in mapping mode from "ASY Commuter". Check every field before it goes in the game.
 # Grid: put ASY Commuter.yml at Resources/SharedMaps/_WG/Community/asy_commuter.yml
 # Prototype: put this file, ASY Commuter.vessel.yml, at Resources/Prototypes/_WG/Community/asy_commuter.yml
-# Guessed from the grid (135 tiles), not set by the mapper: category, engine. Check them.
-# Set by the mapper in the export wizard: name, description, price, class, group, access, requireCrew.
+# Guessed from the grid (135 tiles), not set by the mapper: engine. Check them.
+# Set by the mapper in the export wizard: name, description, price, category, class, group, access, requireCrew.
 
 - type: vessel
   id: WGASYCommuter
   parent: BaseVessel
   name: 'ASY Commuter'
   description: 'A mass-produced fast-moving human-designed unarmed civilian transport licensed by Artemis Shipyards. It is used commonly for moving personnel or small amounts of cargo from and to planetary surfaces thanks to it''s small cargo hold and passenger bay with a total capacity of six, pilot excluded. The only defence it boasts is a GS-002 flare system on both sides of the hull. Atmospheric-rated thrusters included.'
-  price: 31000 # appraised at 24024
+  price: 30000 # appraised at 22536
   category: Small # 135 tiles
   group: Shipyard
   shuttlePath: /SharedMaps/_WG/Community/asy_commuter.yml
