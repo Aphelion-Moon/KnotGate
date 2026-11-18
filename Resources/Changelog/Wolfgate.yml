@@ -8027,3 +8027,29 @@ Entries:
   id: 100509
   time: '2026-11-18T19:40:20.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/734
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: The Lupercal's hard-light doors stay visible when open.
+    - type: Fix
+      message: The Lupercal's salvage magnet works.
+    - type: Fix
+      message: >-
+        The Lupercal's paintings and signs no longer show through into
+        neighbouring rooms.
+    - type: Add
+      message: >-
+        The Lupercal has a sauna, an anomaly lab with a sealed chamber, a bigger
+        janitor's closet, more defibrillators and directional fans at its
+        airlocks.
+    - type: Fix
+      message: The Lupercal can jump out of the Lattice's outer rings.
+    - type: Fix
+      message: NPC crew no longer shoot the Lupercal's traders or fire through walls.
+    - type: Fix
+      message: >-
+        NPC crew walk past puddles, carry patients instead of dragging them,
+        step aside when stuck and spread out on patrol.
+  id: 100510
+  time: '2026-11-18T23:17:55.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/730
