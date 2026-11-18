@@ -8053,3 +8053,22 @@ Entries:
   id: 100510
   time: '2026-11-18T23:17:55.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/730
+- author: ImogenOC
+  changes:
+    - type: Add
+      message: >-
+        Staff may now appear in person during a round to handle admin chores or
+        exist as DM-NPCs. They always carry a staff marker and cannot be
+        touched.
+    - type: Add
+      message: >-
+        Admin observers can manifest as a ghost, object, mob or character while
+        keeping their powers, and are always marked as Staff in a visible and
+        customizable way.
+    - type: Add
+      message: >-
+        The admin observer ghost kit is complete, has a Kit window, and your
+        layout and avatars save between rounds.
+  id: 100511
+  time: '2026-11-18T23:19:01.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/714
