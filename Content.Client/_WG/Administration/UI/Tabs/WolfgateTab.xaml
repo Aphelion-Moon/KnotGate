@@ -26,6 +26,7 @@
             <cc:CommandButton Command="testdummies" Text="{Loc wg-test-dummy-button}" />
             <cc:CommandButton Command="nukedesigner" Text="{Loc wg-nuke-designer-button}" />
             <cc:CommandButton Command="shipmaster" Text="{Loc wg-ship-admin-button}" />
+            <cc:CommandButton Command="observerpanel" Text="{Loc wg-admin-tab-observer-panel}" />
         </GridContainer>
     </ScrollContainer>
 </Control>
