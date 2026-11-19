@@ -8097,3 +8097,10 @@ Entries:
   id: 100512
   time: '2026-11-19T01:32:31.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/738
+- author: Balls2zawall
+  changes:
+    - type: Fix
+      message: Fixed a missing directional fan on the Scarab
+  id: 100513
+  time: '2026-11-19T03:42:48.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/735
