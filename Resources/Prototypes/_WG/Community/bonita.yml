@@ -15,6 +15,7 @@
   - Civilian
   - Kitchen
   engine:
+  - Uranium
 
 - type: gameMap
   id: WGBonita
