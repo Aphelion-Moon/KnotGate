@@ -8135,3 +8135,21 @@ Entries:
   id: 100515
   time: '2026-11-19T10:09:20.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/699
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        Augments in the character creator are now cyberware you buy once and
+        keep between rounds, as long as you go to cryo or end the round alive in
+        your own body. Dying, cloning or respawning loses it all.
+    - type: Add
+      message: New implants
+    - type: Add
+      message: Paid-for cyberware cut out of a body sells as loot.
+    - type: Add
+      message: Rare cyberware can be found on the floors of wrecks.
+    - type: Add
+      message: Health analyzers list a patient's cyberware.
+  id: 100516
+  time: '2026-11-19T10:44:50.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/717
