@@ -8195,3 +8195,20 @@ Entries:
   id: 100520
   time: '2026-11-19T18:53:47.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/743
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: The thermobath can now cool to 200 K, cold enough to set meth crystals.
+    - type: Tweak
+      message: >-
+        Desoxyephedrine now has a purity grade that depends on how well it was
+        cooked.
+    - type: Tweak
+      message: >-
+        Narcotics buyers pay very little once the market is saturated, so
+        dumping a huge stock no longer pays out millions.
+    - type: Add
+      message: Meth crystals of 99.1% purity or better are tinted blue.
+  id: 100521
+  time: '2026-11-19T21:39:32.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/744
