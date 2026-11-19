@@ -4,8 +4,8 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261117-170338-3118dcd-0c9797b9
-  time: 11/18/2026 22:57:55
-  entityCount: 286
+  time: 11/19/2026 03:53:52
+  entityCount: 285
 maps: []
 grids:
 - 2
@@ -38,7 +38,7 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: grid
+      name: Commuter
     - type: Transform
       parent: invalid
       pos: 2,10
@@ -876,15 +876,16 @@ entities:
       - 150
     - type: AtmosPipeColor
       color: '#0055CCFF'
-- proto: GasMixerFlipped
+- proto: GasMixerOnFlipped
   entities:
   - uid: 177
     components:
     - type: Transform
       parent: 2
       pos: 1.5,-7.5
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
+    - type: GasMixer
+      inletTwoConcentration: 0.21
+      inletOneConcentration: 0.79
 - proto: GasPassiveVent
   entities:
   - uid: 188
@@ -1198,14 +1199,6 @@ entities:
       startingCharge: 0
     - type: ApcPowerReceiver
       powerLoad: 5
-- proto: Gyroscope
-  entities:
-  - uid: 144
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-6.5
 - proto: HardpointBallisticMedium
   entities:
   - uid: 120
@@ -1290,15 +1283,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 152
-  - uid: 25
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 2.5,-0.5
-      anchored: False
-    - type: Physics
-      bodyType: Dynamic
 - proto: PoweredWarmSmallLight
   entities:
   - uid: 36
@@ -1693,6 +1677,14 @@ entities:
         11:
         - - Pressed
           - Toggle
+- proto: SmallGyroscope
+  entities:
+  - uid: 144
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: 5.5,-6.5
 - proto: SMESBasic
   entities:
   - uid: 74

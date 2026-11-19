@@ -1,18 +1,14 @@
-# Vessel prototype made in mapping mode from "ASY Commuter". Check every field before it goes in the game.
-# Grid: put ASY Commuter.yml at Resources/SharedMaps/_WG/Community/asy_commuter.yml
-# Prototype: put this file, ASY Commuter.vessel.yml, at Resources/Prototypes/_WG/Community/asy_commuter.yml
-# Guessed from the grid (135 tiles), not set by the mapper: engine. Check them.
-# Set by the mapper in the export wizard: name, description, price, category, class, group, access, requireCrew.
-
+# Author Info
+# moroniccape91 (Discord) Moro91GIT (Github)
 - type: vessel
-  id: WGASYCommuter
+  id: WGCommuter
   parent: BaseVessel
   name: 'ASY Commuter'
   description: 'A mass-produced fast-moving human-designed unarmed civilian transport licensed by Artemis Shipyards. It is used commonly for moving personnel or small amounts of cargo from and to planetary surfaces thanks to it''s small cargo hold and passenger bay with a total capacity of six, pilot excluded. The only defence it boasts is a GS-002 flare system on both sides of the hull. Atmospheric-rated thrusters included.'
-  price: 30000 # appraised at 22536
+  price: 59882 # appraised at 49902, 20% markup
   category: Small # 135 tiles
   group: Shipyard
-  shuttlePath: /SharedMaps/_WG/Community/asy_commuter.yml
+  shuttlePath: /SharedMaps/_WG/Community/commuter.yml
   guidebookPage: null
   class:
   - Cargo
@@ -21,16 +17,16 @@
   - Uranium
 
 - type: gameMap
-  id: WGASYCommuter
+  id: WGCommuter
   mapName: 'ASY Commuter'
-  mapPath: /SharedMaps/_WG/Community/asy_commuter.yml
+  mapPath: /SharedMaps/_WG/Community/commuter.yml
   minPlayers: 0
   stations:
-    WGASYCommuter:
+    WGCommuter:
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'ASY Commuter {1}'
+        mapNameTemplate: 'Commuter CIV{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'

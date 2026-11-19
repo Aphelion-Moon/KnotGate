@@ -9,10 +9,12 @@ Module containing ships made by the Wolfgate community
 
 ### Prototypes
 
+- [`Resources/Prototypes/_WG/Community/commuter.yml`](../../../Resources/Prototypes/_WG/Community/commuter.yml)
 - [`Resources/Prototypes/_WG/Community/executive.yml`](../../../Resources/Prototypes/_WG/Community/executive.yml)
 
 ### Shared maps
 
+- [`Resources/SharedMaps/_WG/Community/commuter.yml`](../../../Resources/SharedMaps/_WG/Community/commuter.yml)
 - [`Resources/SharedMaps/_WG/Community/executive.yml`](../../../Resources/SharedMaps/_WG/Community/executive.yml)
 
 ## Non-modular edits
