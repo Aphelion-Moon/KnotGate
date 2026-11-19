@@ -8115,3 +8115,23 @@ Entries:
   id: 100514
   time: '2026-11-19T08:25:17.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/718
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Adds Judge Line. Vagrants in the Colossus sector can call a judge ship
+        to an emergency from the new Judge Line PDA app or any shuttle console,
+        for 50,000 spesos.
+    - type: Add
+      message: >-
+        Pick the emergency: under fire, boarded, medical, stranded, adrift or
+        assault. The judges fight off attackers, clear boarders, send a
+        paramedic, drop off a relief crate, or pick you up and fly you to a
+        station.
+    - type: Add
+      message: >-
+        False calls lose the fee and lock you out for a while. Three false calls
+        and the judges stop answering you for the rest of the shift.
+  id: 100515
+  time: '2026-11-19T10:09:20.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/699
