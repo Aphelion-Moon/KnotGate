@@ -8153,3 +8153,20 @@ Entries:
   id: 100516
   time: '2026-11-19T10:44:50.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/717
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        Paint canvases pixel by pixel with crayons or a paint palette, and hang
+        finished paintings in wall frames.
+    - type: Add
+      message: >-
+        The Art Catalogue PDA app keeps paintings between rounds. Scan yours in,
+        and order prints of anyone's.
+    - type: Add
+      message: Gallery frames show a random catalogue painting each shift.
+    - type: Add
+      message: John Wolfgate sells canvases, paint palettes, frame kits and easels.
+  id: 100517
+  time: '2026-11-19T10:45:31.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/736
