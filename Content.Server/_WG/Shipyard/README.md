@@ -82,6 +82,7 @@ share from its slot, or from the counter of a trader hosting it (`ShipyardHostCa
 - [`Resources/Prototypes/_WG/Shipyard/TSF/welder.yml`](../../../Resources/Prototypes/_WG/Shipyard/TSF/welder.yml)
 - [`Resources/Prototypes/_WG/Shipyard/ubm_excelsior.yml`](../../../Resources/Prototypes/_WG/Shipyard/ubm_excelsior.yml)
 - [`Resources/Prototypes/_WG/Shipyard/ubm_lurker.yml`](../../../Resources/Prototypes/_WG/Shipyard/ubm_lurker.yml)
+- [`Resources/Prototypes/_WG/Shipyard/viscount.yml`](../../../Resources/Prototypes/_WG/Shipyard/viscount.yml)
 - [`Resources/Prototypes/_WG/Shipyard/vox_vrakritatat.yml`](../../../Resources/Prototypes/_WG/Shipyard/vox_vrakritatat.yml)
 
 ### Localization
@@ -120,6 +121,7 @@ share from its slot, or from the counter of a trader hosting it (`ShipyardHostCa
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/TSF/welder.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/TSF/welder.yml)
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/ubm_excelsior.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/ubm_excelsior.yml)
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/ubm_lurker.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/ubm_lurker.yml)
+- [`Resources/SharedMaps/_WG/Shipyard/Shuttles/viscount.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/viscount.yml)
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/vox_vrakritatat.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/vox_vrakritatat.yml)
 
 ## Non-modular edits
