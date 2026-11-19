@@ -8212,3 +8212,12 @@ Entries:
   id: 100521
   time: '2026-11-19T21:39:32.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/744
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the server getting stuck restarting at round start when more than
+        100 players were connected.
+  id: 100522
+  time: '2026-11-19T21:49:07.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/745
