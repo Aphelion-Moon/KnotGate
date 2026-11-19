@@ -15,7 +15,6 @@
   - Civilian
   - Kitchen
   engine:
-  - Plasma
 
 - type: gameMap
   id: WGBonita
