@@ -8177,3 +8177,12 @@ Entries:
   id: 100518
   time: '2026-11-19T12:55:00.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/726
+- author: Balls2zawall
+  changes:
+    - type: Add
+      message: >-
+        A new mercenary fighter, the GGS Baron, is now available in civilian
+        shipyards.
+  id: 100519
+  time: '2026-11-19T17:29:54.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/742
