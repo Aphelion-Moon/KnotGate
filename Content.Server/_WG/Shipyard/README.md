@@ -54,6 +54,7 @@ share from its slot, or from the counter of a trader hosting it (`ShipyardHostCa
 
 ### Prototypes
 
+- [`Resources/Prototypes/_WG/Shipyard/baron.yml`](../../../Resources/Prototypes/_WG/Shipyard/baron.yml)
 - [`Resources/Prototypes/_WG/Shipyard/brute.yml`](../../../Resources/Prototypes/_WG/Shipyard/brute.yml)
 - [`Resources/Prototypes/_WG/Shipyard/bucket.yml`](../../../Resources/Prototypes/_WG/Shipyard/bucket.yml)
 - [`Resources/Prototypes/_WG/Shipyard/carabela.yml`](../../../Resources/Prototypes/_WG/Shipyard/carabela.yml)
@@ -93,6 +94,7 @@ share from its slot, or from the counter of a trader hosting it (`ShipyardHostCa
 
 ### Shared maps
 
+- [`Resources/SharedMaps/_WG/Shipyard/Shuttles/baron.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/baron.yml)
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/brute.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/brute.yml)
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/bucket.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/bucket.yml)
 - [`Resources/SharedMaps/_WG/Shipyard/Shuttles/carabela.yml`](../../../Resources/SharedMaps/_WG/Shipyard/Shuttles/carabela.yml)
