@@ -8170,3 +8170,10 @@ Entries:
   id: 100517
   time: '2026-11-19T10:45:31.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/736
+- author: Balls2zawall
+  changes:
+    - type: Tweak
+      message: Added 4 Equinox autocannons to the equinox, now the gunboat can gunboat.
+  id: 100518
+  time: '2026-11-19T12:55:00.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/726
