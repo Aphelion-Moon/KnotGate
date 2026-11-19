@@ -4,8 +4,8 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261117-170338-3118dcd-0c9797b9
-  time: 11/19/2026 00:17:13
-  entityCount: 712
+  time: 11/19/2026 04:59:43
+  entityCount: 714
 maps: []
 grids:
 - 1
@@ -481,6 +481,7 @@ entities:
       - 328
       - 365
       - 555
+      - 8
   - uid: 589
     components:
     - type: Transform
@@ -494,6 +495,7 @@ entities:
       - 562
       - 560
       - 561
+      - 8
   - uid: 590
     components:
     - type: Transform
@@ -1897,6 +1899,7 @@ entities:
       - 170
       - 557
       - 558
+      - 8
   - uid: 604
     components:
     - type: Transform
@@ -1926,6 +1929,9 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 456
+      - 589
+      - 588
+      - 597
   - uid: 552
     components:
     - type: Transform
@@ -2012,7 +2018,7 @@ entities:
       - 589
       - 456
       - 379
-- proto: GasMixer
+- proto: GasMixerOn
   entities:
   - uid: 299
     components:
@@ -2020,6 +2026,9 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: -10.5,-17.5
+    - type: GasMixer
+      inletTwoConcentration: 0.79
+      inletOneConcentration: 0.21
 - proto: GasPassiveVent
   entities:
   - uid: 54
@@ -3682,6 +3691,18 @@ entities:
     - type: Transform
       parent: 1
       pos: -12.5,-17.5
+  - uid: 538
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: -13.5,1.5
+  - uid: 539
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: -7.5,3.5
   - uid: 565
     components:
     - type: Transform
