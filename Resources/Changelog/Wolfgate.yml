@@ -8072,3 +8072,28 @@ Entries:
   id: 100511
   time: '2026-11-18T23:19:01.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/714
+- author: Happyowl93
+  changes:
+    - type: Tweak
+      message: >-
+        The Sevastopol and Lancelot plasma miners produce far less gas with a
+        higher pressure cap to let it accumulate over time.
+    - type: Tweak
+      message: >-
+        Frezon and healium sell for less, and plasma canisters cost more to
+        order.
+    - type: Tweak
+      message: Iridite bounties pay less MIC.
+    - type: Tweak
+      message: >-
+        Narcotics handed in at a contraband pallet pay by their combined street
+        value, with no flat reward per item.
+    - type: Fix
+      message: Produce grown with a drug gene is now contraband.
+    - type: Fix
+      message: >-
+        Healium production no longer creates gas from nothing at very low
+        temperatures.
+  id: 100512
+  time: '2026-11-19T01:32:31.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/738
