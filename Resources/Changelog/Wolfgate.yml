@@ -8104,3 +8104,14 @@ Entries:
   id: 100513
   time: '2026-11-19T03:42:48.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/735
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: >-
+        When your heart stops you stay on your feet for about 45 seconds, fading
+        and dropping things, before you collapse.
+    - type: Add
+      message: Admins have a heart attack smite.
+  id: 100514
+  time: '2026-11-19T08:25:17.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/718
