@@ -8237,3 +8237,16 @@ Entries:
   id: 100524
   time: '2026-11-20T08:22:14.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/749
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Added luggage tugs. Buckle in to drive one, couple up to five trolleys
+        behind it, and strap a crate to each trolley.
+    - type: Add
+      message: >-
+        The Bison cargo carrier now has a van cab you can drive it from, and
+        nuclear warheads can be dragged onto its bed to haul them.
+  id: 100525
+  time: '2026-11-20T08:24:19.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/517
