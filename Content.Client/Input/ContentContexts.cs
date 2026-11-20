@@ -71,6 +71,9 @@ namespace Content.Client.Input
             human.AddFunction(ContentKeyFunctions.ShuttleDescend);
             human.AddFunction(ContentKeyFunctions.SwapHands);
             human.AddFunction(ContentKeyFunctions.SwapHandsPrevious); // Frontier
+            human.AddFunction(Content.Shared._WG.HandSelect.WGHandSelectKeys.WGSelectLeftHand); // WOLFGATE(HandSelect): swap to left hand
+            human.AddFunction(Content.Shared._WG.HandSelect.WGHandSelectKeys.WGSelectRightHand); // WOLFGATE(HandSelect): swap to right hand
+            human.AddFunction(Content.Shared._WG.CancelInteractions.WGCancelInteractionKeys.WGCancelInteractions); // WOLFGATE(CancelInteractions): cancel own do-afters
             human.AddFunction(ContentKeyFunctions.Drop);
             human.AddFunction(ContentKeyFunctions.WGOfferItem); // WOLFGATE(ExtraInteractions): hold out the active item
             human.AddFunction(ContentKeyFunctions.UseItemInHand);

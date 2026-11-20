@@ -214,6 +214,9 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.ExamineEntity);
             AddButton(ContentKeyFunctions.SwapHands);
             AddButton(ContentKeyFunctions.SwapHandsPrevious); // Frontier
+            AddButton(Content.Shared._WG.HandSelect.WGHandSelectKeys.WGSelectLeftHand); // WOLFGATE(HandSelect): swap to left hand
+            AddButton(Content.Shared._WG.HandSelect.WGHandSelectKeys.WGSelectRightHand); // WOLFGATE(HandSelect): swap to right hand
+            AddButton(Content.Shared._WG.CancelInteractions.WGCancelInteractionKeys.WGCancelInteractions); // WOLFGATE(CancelInteractions): cancel own do-afters
             AddButton(ContentKeyFunctions.MoveStoredItem);
             AddButton(ContentKeyFunctions.RotateStoredItem);
             AddButton(ContentKeyFunctions.SaveItemLocation);

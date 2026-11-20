@@ -48,6 +48,7 @@ public sealed partial class MiscTab : Control
         Control.AddOptionCheckBox(CCVars.ShowOocPatronColor, ShowOocPatronColor);
         Control.AddOptionCheckBox(CCVars.LoocAboveHeadShow, ShowLoocAboveHeadCheckBox);
         Control.AddOptionCheckBox(CCVars.HudHeldItemShow, ShowHeldItemCheckBox);
+        WgAddScreentipOptions(); // WOLFGATE(Screentips): screentip position and colour
         Control.AddOptionCheckBox(CCVars.CombatModeIndicatorsPointShow, ShowCombatModeIndicatorsCheckBox);
         Control.AddOptionCheckBox(Content.Shared._WG.CombatFacing.WGCombatFacingCVars.FaceCursor, WGCombatFaceCursorCheckBox); // WOLFGATE(CombatFacing): face the cursor in combat mode
         Control.AddOptionCheckBox(CCVars.OpaqueStorageWindow, OpaqueStorageWindowCheckBox);
