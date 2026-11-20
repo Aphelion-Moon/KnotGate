@@ -8309,3 +8309,20 @@ Entries:
   id: 100528
   time: '2026-11-20T16:45:59.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/688
+- author: ImogenOC
+  changes:
+    - type: Add
+      message: >-
+        Keybinds to swap straight to your left or right hand, and to cancel your
+        own interactions in progress.
+    - type: Add
+      message: >-
+        Screentips: an option to show the name of what's under your cursor, at
+        the top of the view or next to the cursor.
+    - type: Add
+      message: >-
+        The character editor preview can be turned by dragging, zoomed with the
+        scroll wheel, and shown on a floor tile.
+  id: 100529
+  time: '2026-11-20T16:46:37.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/690
