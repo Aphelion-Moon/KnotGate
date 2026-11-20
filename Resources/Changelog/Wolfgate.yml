@@ -8230,3 +8230,10 @@ Entries:
   id: 100523
   time: '2026-11-20T05:50:48.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/746
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: Wall lights no longer glow through walls from rooms you can't see.
+  id: 100524
+  time: '2026-11-20T08:22:14.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/749
