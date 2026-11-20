@@ -8260,3 +8260,34 @@ Entries:
   id: 100526
   time: '2026-11-20T09:41:55.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/753
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: A faction AI core whose player ghosts opens up as a ghost role again.
+    - type: Fix
+      message: >-
+        TSFMC and PDV AIs can use their faction's requisition station and
+        overwatch console.
+    - type: Fix
+      message: >-
+        Destroying an AI core while its AI is in a borg no longer causes errors
+        later.
+    - type: Tweak
+      message: >-
+        AI cores taken as a ghost role use the Station AI name from your
+        character's loadout.
+    - type: Tweak
+      message: >-
+        AIs can reconnect to borgs they have controlled after those borgs leave
+        the station's grid.
+    - type: Tweak
+      message: >-
+        Faction AIs can use their faction's requisition station and overwatch
+        console, including viewing marine cameras.
+    - type: Fix
+      message: >-
+        TSF and PDV borgs built mid-round can use their faction's requisition
+        station.
+  id: 100527
+  time: '2026-11-20T16:16:06.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/755
