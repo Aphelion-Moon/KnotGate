@@ -8291,3 +8291,21 @@ Entries:
   id: 100527
   time: '2026-11-20T16:16:06.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/755
+- author: ImogenOC
+  changes:
+    - type: Add
+      message: >-
+        Added a hold key to turn in place without moving (Controls → Movement;
+        Ctrl in the SS13 preset).
+    - type: Add
+      message: >-
+        Added pixel shift and tilt: hold a key and tap the movement keys to
+        nudge or lean your sprite (B and V in the SS13 preset). Everyone sees
+        it; walking or the reset key puts it back.
+    - type: Add
+      message: >-
+        Added a Misc option to stop combat mode from turning you toward the
+        cursor.
+  id: 100528
+  time: '2026-11-20T16:45:59.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/688
