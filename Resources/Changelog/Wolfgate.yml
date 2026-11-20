@@ -8335,3 +8335,12 @@ Entries:
   id: 100530
   time: '2026-11-20T16:46:55.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/739
+- author: Happyowl93
+  changes:
+    - type: Remove
+      message: >-
+        The MOD advanced EMP shield module can no longer be researched, printed
+        or bought from the uplink.
+  id: 100531
+  time: '2026-11-20T22:57:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/762
