@@ -183,6 +183,13 @@ namespace Content.Client.Options.UI.Tabs
             AddCheckBox("ui-options-hotkey-toggle-walk", _cfg.GetCVar(CCVars.ToggleWalk), HandleToggleWalk);
             AddButton(ContentKeyFunctions.ToggleStanding);
             AddCheckBox("ui-options-function-auto-get-up", _cfg.GetCVar(CCVars.AutoGetUp), HandleToggleAutoGetUp); // WD EDIT
+            AddButton(Content.Shared._WG.TurnInPlace.WGTurnInPlaceKeys.WGTurnInPlace); // WOLFGATE(TurnInPlace): hold to turn without moving
+            // WOLFGATE(PixelShift) START: hold keys that shift or tilt your sprite, their speeds and their reset
+            AddButton(Content.Shared._WG.PixelShift.WGPixelShiftKeys.WGPixelShift);
+            AddButton(Content.Shared._WG.PixelShift.WGPixelShiftKeys.WGPixelTilt);
+            AddButton(Content.Shared._WG.PixelShift.WGPixelShiftKeys.WGPixelShiftReset);
+            WgAddPixelShiftSpeeds();
+            // WOLFGATE END
             InitToggleWalk();
 
             AddHeader("ui-options-header-camera");
