@@ -8221,3 +8221,12 @@ Entries:
   id: 100522
   time: '2026-11-19T21:49:07.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/745
+- author: IrkallaEpsilon2FANotEnjoyer
+  changes:
+    - type: Fix
+      message: >-
+        Shadekin can now use their own blood to trigger artefact nodes requiring
+        blood.
+  id: 100523
+  time: '2026-11-20T05:50:48.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/746
