@@ -8326,3 +8326,12 @@ Entries:
   id: 100529
   time: '2026-11-20T16:46:37.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/690
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Admins manifested as their character no longer show as SSD, and keep
+        their ghost colour after hiding.
+  id: 100530
+  time: '2026-11-20T16:46:55.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/739
