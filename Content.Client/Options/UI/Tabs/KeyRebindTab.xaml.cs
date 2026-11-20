@@ -173,6 +173,7 @@ namespace Content.Client.Options.UI.Tabs
 
             AddHeader("ui-options-header-general");
             AddCheckBox("ui-options-hotkey-keymap", _cfg.GetCVar(CVars.DisplayUSQWERTYHotkeys), HandleToggleUSQWERTYCheckbox);
+            AddCheckBox("ui-options-wg-worn-storage-click-opens", _cfg.GetCVar(Content.Shared._WG.WornStorage.WornStorageCVars.ClickOpens), HandleToggleWornStorageClick); // WOLFGATE(WornStorage): SS13 worn storage click
 
             AddHeader("ui-options-header-movement");
             AddButton(EngineKeyFunctions.MoveUp);
