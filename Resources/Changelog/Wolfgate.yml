@@ -8459,3 +8459,12 @@ Entries:
   id: 100542
   time: '2026-11-21T11:29:54.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/775
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Ships repaired after crashing on a planet can be flown again once they
+        leave orbit.
+  id: 100543
+  time: '2026-11-21T13:59:34.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/768
