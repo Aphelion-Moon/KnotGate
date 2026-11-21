@@ -8429,3 +8429,26 @@ Entries:
   id: 100540
   time: '2026-11-21T10:35:06.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/773
+- author: ImogenOC
+  changes:
+    - type: Tweak
+      message: >-
+        The name of what's under your cursor now shows at the top of the screen
+        by default. You can still move it next to the cursor in Game Options >
+        Wolfgate > Interface.
+    - type: Tweak
+      message: >-
+        Hovering no longer names or outlines players or mobs standing in the
+        dark.
+    - type: Fix
+      message: >-
+        The name under your cursor no longer shows things behind walls or out of
+        sight.
+    - type: Tweak
+      message: >-
+        Game Options now has SS14 and Wolfgate master tabs. Every Wolfgate and
+        fork setting, including fork keybinds, moved to the Wolfgate side, and
+        the search bar finds settings on either side.
+  id: 100541
+  time: '2026-11-21T11:00:41.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/760
