@@ -8353,3 +8353,21 @@ Entries:
   id: 100532
   time: '2026-11-21T04:33:53.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/769
+- author: Sushiburger
+  changes:
+    - type: Add
+      message: >-
+        New Strix revolver. In Vagrant loadouts and behind Advanced Mercenary
+        Weaponry Production.
+    - type: Tweak
+      message: >-
+        Changed Vagrant loadouts to be more in line with what's in the
+        LiberationVend.
+    - type: Tweak
+      message: >-
+        Changed Mercenary techfab recipes to be more in line with what's in the
+        LiberationVend. Lee Enfield, Keyboard, Energy Gun, Viper and MK32 now
+        craftable in the fab. Energy Gun is behind energy weapons research.
+  id: 100533
+  time: '2026-11-21T07:57:25.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/751
