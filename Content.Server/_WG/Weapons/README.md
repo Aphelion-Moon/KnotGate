@@ -4,10 +4,17 @@ Client-predicted guns and some weapon content. The shooter's client fires its ow
 beam, so shots appear the moment they're fired; the server links its copy to the prediction and hides it from the
 shooter. When the server fires fewer rounds than a request predicted (a burst it carried on itself, a late request it
 had already caught up), it names the unfired copies in `WGPredictedShotsRefusedEvent` and the shooter's client drops
-them, so no phantom round flies on. Also material bullet impact and punch sounds ported from Skyrat-tg, and a Mosin loadout for the Contractor.
+them, so no phantom round flies on. Also material bullet impact and punch sounds ported from Skyrat-tg, a Mosin loadout for the Contractor, and the Strix
+.357 revolver with extra Vagrant gun loadouts.
 
 Entry points: the `GunSystem.Prediction` partials (shared, client and server), `impacts.yml` with the sounds under
 `Resources/Audio/_WG/Weapons`, and `WGContractorMosinLoadout`. `WGGunPredictionTest` covers prediction.
+
+The Strix (`WGWeaponRevolverStrix`) is a six-shot .357 revolver that hits harder per shot than a stock revolver but
+fires slowly. Vagrants with the civilian veteran playtime (`MonoCivVet`) take it from the special gun loadout
+(`WGContractorSpecialGunStrix`); a mercenary techfab prints it after Advanced Mercenary Weaponry Production. The
+same special gun group also offers cased Merc POI vend guns (`WGWeaponCaseLong*Registered`), and the Vagrant
+sidearm group the vend's sidearms and knives.
 
 Upstream's shield rule lets only ballistic sidearms fire alongside a shield. A gun is exempt through
 `CanShootWithShield`; `enabled: false` takes the exemption back off a gun that inherits it, such as the HCLM.
@@ -94,8 +101,13 @@ predicted on their own client; this only cuts the audio entities other players r
 
 ### Prototypes
 
+- [`Resources/Prototypes/_WG/Weapons/Guns/revolvers.yml`](../../../Resources/Prototypes/_WG/Weapons/Guns/revolvers.yml)
 - [`Resources/Prototypes/_WG/Weapons/Loadouts/gun.yml`](../../../Resources/Prototypes/_WG/Weapons/Loadouts/gun.yml)
 - [`Resources/Prototypes/_WG/Weapons/SoundCollections/impacts.yml`](../../../Resources/Prototypes/_WG/Weapons/SoundCollections/impacts.yml)
+
+### Textures
+
+- [`Resources/Textures/_WG/Weapons/Guns/Revolvers/strix.rsi/`](../../../Resources/Textures/_WG/Weapons/Guns/Revolvers/strix.rsi/)
 
 ### Audio
 
@@ -258,13 +270,26 @@ predicted on their own client; this only cuts the audio entities other players r
   - attachable pistols have no wield bonus, which is not an error
 - [`Resources/Prototypes/_Goobstation/Entities/Objects/Weapons/Guns/Pistols/pistol.yml`](../../../Resources/Prototypes/_Goobstation/Entities/Objects/Weapons/Guns/Pistols/pistol.yml): this ballistic sidearm and its children (Hawk-4, Dragoon, registered copy) fire alongside a shield
 - [`Resources/Prototypes/_Mono/Entities/Objects/Specific/Planet/flora.yml`](../../../Resources/Prototypes/_Mono/Entities/Objects/Specific/Planet/flora.yml): material bullet impacts
+- [`Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/registered_loadout_cases.yml`](../../../Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/registered_loadout_cases.yml): Extra guns for Vagrants, from libertyvend.
 - [`Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/SMGs/nt.yml`](../../../Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/SMGs/nt.yml): a full-auto SMG is no sidearm, so the revolver base's shield exemption is switched off
 - [`Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/charon_launcher.yml`](../../../Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/charon_launcher.yml): refill from linked ammo loaders after each shot
 - [`Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml`](../../../Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/projectiles.yml): the wide circle is for rounds and things adrift, not for people behind a hull
 - [`Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.yml`](../../../Resources/Prototypes/_Mono/Entities/SpaceArtillery/SpaceArtillery/Kinetic/standardlarge_kinetic.yml): refill from linked ammo loaders after each shot
 - [`Resources/Prototypes/_Mono/Entities/Structures/Machines/lathe.yml`](../../../Resources/Prototypes/_Mono/Entities/Structures/Machines/lathe.yml): give judges attachments
 - [`Resources/Prototypes/_Mono/Loadouts/Contractor/gun.yml`](../../../Resources/Prototypes/_Mono/Loadouts/Contractor/gun.yml)
+  - Argenti available
+  - Vagrant loadouts match what is in the LibertyVend
+  - Loadouts equitable to what's in LibertyVend.
+- [`Resources/Prototypes/_Mono/Loadouts/faction_vet_gun.yml`](../../../Resources/Prototypes/_Mono/Loadouts/faction_vet_gun.yml)
+  - Extra guns for Vagrants, from libertyvend.
+  - New revolver for vagrants
+- [`Resources/Prototypes/_Mono/Loadouts/gun.yml`](../../../Resources/Prototypes/_Mono/Loadouts/gun.yml): Extra guns for Vagrants, from libertyvend. Provided in cases.
+- [`Resources/Prototypes/_Mono/Recipes/Lathes/merc_weapons.yml`](../../../Resources/Prototypes/_Mono/Recipes/Lathes/merc_weapons.yml): Strix is craftable through research. Lee Enfield, Keyboard, Energy Gun, Viper and MK32 are craftable.
+- [`Resources/Prototypes/_Mono/Research/arsenal.yml`](../../../Resources/Prototypes/_Mono/Research/arsenal.yml): Make Strix craftable through research
 - [`Resources/Prototypes/_Mono/Research/Organizations/mieyo.yml`](../../../Resources/Prototypes/_Mono/Research/Organizations/mieyo.yml): the Sakura needs its .160 smart magazine
+- [`Resources/Prototypes/_NF/Recipes/Lathes/Packs/Deprecated/mercenary_techfab.yml`](../../../Resources/Prototypes/_NF/Recipes/Lathes/Packs/Deprecated/mercenary_techfab.yml)
+  - LiberationVend weapons made craftable.
+  - Make Strix and energy gun craftable through research.
 - [`Resources/Prototypes/_Nuclear14/Entities/Structures/Decoration/floordecor.yml`](../../../Resources/Prototypes/_Nuclear14/Entities/Structures/Decoration/floordecor.yml): material bullet impacts
 - [`Resources/Prototypes/Entities/Mobs/base.yml`](../../../Resources/Prototypes/Entities/Mobs/base.yml): material bullet impacts
 - [`Resources/Prototypes/Entities/Objects/Weapons/Guns/Battery/battery_guns.yml`](../../../Resources/Prototypes/Entities/Objects/Weapons/Guns/Battery/battery_guns.yml): own pulse rifle shot
@@ -279,6 +304,7 @@ predicted on their own client; this only cuts the audio entities other players r
 - [`Resources/Prototypes/Entities/Structures/Walls/walls.yml`](../../../Resources/Prototypes/Entities/Structures/Walls/walls.yml): material bullet impacts
 - [`Resources/Prototypes/Entities/Structures/Windows/plastitanium.yml`](../../../Resources/Prototypes/Entities/Structures/Windows/plastitanium.yml): material bullet impacts
 - [`Resources/Prototypes/Entities/Structures/Windows/window.yml`](../../../Resources/Prototypes/Entities/Structures/Windows/window.yml): material bullet impacts
+- [`Resources/Prototypes/Research/arsenal.yml`](../../../Resources/Prototypes/Research/arsenal.yml): Make energy gun craftable
 - [`Resources/Prototypes/SoundCollections/gun_impacts.yml`](../../../Resources/Prototypes/SoundCollections/gun_impacts.yml): Skyrat metal impacts
 - [`Resources/ServerInfo/_Mono/Guidebook/Specifications/ballistics.xml`](../../../Resources/ServerInfo/_Mono/Guidebook/Specifications/ballistics.xml): ship gunnery specs brought in line with the current weapons
 - [`Resources/ServerInfo/_Mono/Guidebook/Specifications/energy.xml`](../../../Resources/ServerInfo/_Mono/Guidebook/Specifications/energy.xml): ship gunnery specs brought in line with the current weapons
