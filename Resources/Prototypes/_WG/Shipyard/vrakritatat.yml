@@ -9,7 +9,7 @@
   price: 402373 # appraised at 321899, 25% markup
   category: Large # 1327 tiles
   group: Scrap
-  shuttlePath: /SharedMaps/_WF/Shipyard/Shuttles/vrakritatat.yml
+  shuttlePath: /SharedMaps/_WG/Shipyard/Shuttles/vrakritatat.yml
   guidebookPage: null
   class:
   - Capital
@@ -21,7 +21,7 @@
 - type: gameMap
   id: WFVrakritatat
   mapName: 'VOX-Vrakritatat'
-  mapPath: /SharedMaps/_WF/Shipyard/Shuttles/vrakritatat.yml
+  mapPath: /SharedMaps/_WG/Shipyard/Shuttles/vrakritatat.yml
   minPlayers: 0
   stations:
     WFVrakritatat:
