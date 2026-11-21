@@ -8387,3 +8387,12 @@ Entries:
   id: 100535
   time: '2026-11-21T08:01:27.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/765
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Ranged mobs such as the Monolithic Gestalt fire on right-click again
+        instead of attempting a disarm.
+  id: 100536
+  time: '2026-11-21T08:02:49.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/759
