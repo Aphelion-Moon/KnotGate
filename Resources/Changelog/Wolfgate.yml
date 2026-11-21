@@ -8564,3 +8564,18 @@ Entries:
   id: 100547
   time: '2026-11-21T16:25:26.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/778
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        regular+ NPC crews that are losing a boarding fight now fall back, hold
+        a room together and push as a group. 
+    - type: Tweak
+      message: NPC crews carry spare magazines in webbing and reload from it.
+    - type: Fix
+      message: >-
+        NPC crews no longer hold back grenades because a downed crewmate is near
+        the target.
+  id: 100548
+  time: '2026-11-21T21:18:38.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/787
