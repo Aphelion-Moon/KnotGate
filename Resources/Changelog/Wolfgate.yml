@@ -8579,3 +8579,10 @@ Entries:
   id: 100548
   time: '2026-11-21T21:18:38.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/787
+- author: Balls2zawall
+  changes:
+    - type: Fix
+      message: Removed the Despot, a Reaver refit ship, from the civilian shipyard.
+  id: 100549
+  time: '2026-11-21T21:28:40.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/784
