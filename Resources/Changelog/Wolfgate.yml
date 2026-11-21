@@ -8378,3 +8378,12 @@ Entries:
   id: 100534
   time: '2026-11-21T07:59:16.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/757
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        An EMP round that hits a crowd now pulses once instead of once for every
+        person it touches.
+  id: 100535
+  time: '2026-11-21T08:01:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/765
