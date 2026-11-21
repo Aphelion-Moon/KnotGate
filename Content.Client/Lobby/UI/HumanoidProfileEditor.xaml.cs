@@ -2501,7 +2501,7 @@ namespace Content.Client.Lobby.UI
                 return;
 
             GenitalEditor.SetContext(Profile.Species, Profile.Sex, Profile.Age, Profile.Appearance.SkinColor,
-                Profile.Appearance.Markings);
+                Profile.Appearance.Markings, Profile.CustomMarkings);
             Markings.HiddenMarkings = WolfgateGenitalEditor.HiddenMarkingsFor(Profile.Species, Profile.Age, _prototypeManager);
         }
 
