@@ -8371,3 +8371,10 @@ Entries:
   id: 100533
   time: '2026-11-21T07:57:25.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/751
+- author: Erol509
+  changes:
+    - type: Tweak
+      message: Cyborg recharger was buffed to make charging modsuits less of a chore
+  id: 100534
+  time: '2026-11-21T07:59:16.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/757
