@@ -8468,3 +8468,12 @@ Entries:
   id: 100543
   time: '2026-11-21T13:59:34.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/768
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: Roads to points of interest no longer run through water.
+    - type: Fix
+      message: CI fixes, nothing player-facing
+  id: 100544
+  time: '2026-11-21T14:34:52.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/776
