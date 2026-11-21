@@ -8412,3 +8412,13 @@ Entries:
   id: 100538
   time: '2026-11-21T09:27:55.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/774
+- author: ImogenOC
+  changes:
+    - type: Add
+      message: >-
+        Added an "Unstick me" button to the game menu that frees you if you get
+        stuck inside a wall, or puts you back outside a vehicle such as an APC,
+        even when dead.
+  id: 100539
+  time: '2026-11-21T10:29:20.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/767
