@@ -8396,3 +8396,12 @@ Entries:
   id: 100536
   time: '2026-11-21T08:02:49.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/759
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Stepping away from a fire or a heater no longer holds off the cold for
+        minutes.
+  id: 100537
+  time: '2026-11-21T09:12:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/771
