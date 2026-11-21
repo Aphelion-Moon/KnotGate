@@ -8422,3 +8422,10 @@ Entries:
   id: 100539
   time: '2026-11-21T10:29:20.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/767
+- author: Balls2zawall
+  changes:
+    - type: Tweak
+      message: ADS Strongholds are be a more difficult to destroy.
+  id: 100540
+  time: '2026-11-21T10:35:06.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/773
