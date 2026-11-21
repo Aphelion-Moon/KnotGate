@@ -8477,3 +8477,12 @@ Entries:
   id: 100544
   time: '2026-11-21T14:34:52.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/776
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a rare server physics error when many objects pile onto a
+        structure.
+  id: 100545
+  time: '2026-11-21T15:08:34.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/777
