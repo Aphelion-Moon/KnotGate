@@ -8344,3 +8344,12 @@ Entries:
   id: 100531
   time: '2026-11-20T22:57:27.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/762
+- author: Balls2zawall
+  changes:
+    - type: Tweak
+      message: >-
+        The Dread has lost its interior layers of plastititanium except around
+        the AME, which actually has more protection now.
+  id: 100532
+  time: '2026-11-21T04:33:53.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/769
