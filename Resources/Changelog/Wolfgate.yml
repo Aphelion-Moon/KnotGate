@@ -8703,3 +8703,10 @@ Entries:
   id: 100553
   time: '2026-11-22T10:26:58.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/790
+- author: Gandalf2k15
+  changes:
+    - type: Fix
+      message: Vehicle delivery pad and pool table flatpacks unpack again.
+  id: 100554
+  time: '2026-11-22T13:17:28.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/796
