@@ -8710,3 +8710,20 @@ Entries:
   id: 100554
   time: '2026-11-22T13:17:28.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/796
+- author: Happyowl93
+  changes:
+    - type: Tweak
+      message: >-
+        The Fukkatsu cardiac reviver now runs its full 60u of blood in before it
+        shocks, so you come back awake instead of unconscious.
+    - type: Tweak
+      message: >-
+        The Fukkatsu cardiac reviver holds your bleeding for three minutes after
+        the shock, up from one.
+    - type: Fix
+      message: >-
+        The Fukkatsu cardiac reviver no longer feeds a starving hemophage. It
+        only replaces blood a hemophage lost to wounds.
+  id: 100555
+  time: '2026-11-22T13:19:04.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/779
