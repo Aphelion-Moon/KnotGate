@@ -8800,3 +8800,13 @@ Entries:
   id: 100561
   time: '2026-11-22T22:54:02.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/797
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Repair nanites no longer flood everyone nearby with "About 130 more
+        passes of cable" while a reattached chassis limb settles. Only the
+        person holding the cable sees the pass count.
+  id: 100562
+  time: '2026-11-22T22:54:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/794
