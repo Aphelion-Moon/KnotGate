@@ -8737,3 +8737,18 @@ Entries:
   id: 100556
   time: '2026-11-22T13:46:04.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/789
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: >-
+        Ship modules: drydocks that sell refits can now fit up to three modules
+        into a ship's module slots, fired from the helm's new module strip or
+        with Z, X and C while piloting.
+    - type: Add
+      message: >-
+        Added the MJ-3 "Sidestep" Maneuvering Jets module: a charged sideways
+        kick for ships flying without a shield field. Smaller hulls are kicked
+        harder.
+  id: 100557
+  time: '2026-11-22T13:48:36.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/754
