@@ -8810,3 +8810,10 @@ Entries:
   id: 100562
   time: '2026-11-22T22:54:27.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/794
+- author: Happyowl93
+  changes:
+    - type: Add
+      message: A new chassis skin for PDV medical cyborgs.
+  id: 100563
+  time: '2026-11-22T22:55:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/799
