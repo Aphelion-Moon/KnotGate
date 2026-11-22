@@ -8678,3 +8678,19 @@ Entries:
   id: 100551
   time: '2026-11-22T07:50:33.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/700
+- author: ImogenOC
+  changes:
+    - type: Tweak
+      message: >-
+        A ship bought at a shipyard console or a used-ship lot now arrives a
+        moment after the order, while the shipyard prepares it, instead of
+        freezing the server while it loads.
+    - type: Tweak
+      message: Laser pointer lines on guns update ten times a second.
+    - type: Fix
+      message: >-
+        Radar now shows hitscan shots that end within range and stops showing
+        ones far outside it.
+  id: 100552
+  time: '2026-11-22T07:52:20.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/791
