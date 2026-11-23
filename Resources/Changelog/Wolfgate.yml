@@ -8928,3 +8928,21 @@ Entries:
   id: 100572
   time: '2026-11-23T09:06:53.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/811
+- author: Balls2zawall
+  changes:
+    - type: Tweak
+      message: >-
+        Xenonids disarmfailchance has gone from 0 to 0.35, they generally stun
+        anywhere from 2-6 shoves now depending on luck, instead of 1 like
+        previously
+    - type: Tweak
+      message: >-
+        Queen screech stun has gone from 8 seconds to 5, and the cooldown
+        increased to 4.5 minutes
+    - type: Fix
+      message: Xenonids can no longer 'weh'
+    - type: Fix
+      message: Xenonids now respect gravity and do the space doggy paddle like chimera
+  id: 100573
+  time: '2026-11-23T09:34:42.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/798
