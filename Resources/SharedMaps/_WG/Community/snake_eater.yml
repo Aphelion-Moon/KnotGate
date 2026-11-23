@@ -4,7 +4,7 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261121-095513-04adf0d-tm740-tm700-63d88de8
-  time: 11/23/2026 03:27:03
+  time: 11/23/2026 03:40:08
   entityCount: 1519
 maps: []
 grids:
@@ -368,6 +368,8 @@ entities:
             801: -3,10
             802: -3,9
             803: -3,8
+            891: -3,7
+            892: -3,6
         - node:
             id: RMCDecalHybrisaStoneEdgeDecoAlt2
             color: '#545455FF'
@@ -914,6 +916,12 @@ entities:
       parent: 1
       rot: 3.141592653589793 rad
       pos: -0.5,4.5
+  - uid: 702
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: -1.5,4.5
   - uid: 2654
     components:
     - type: Transform
@@ -932,12 +940,6 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 8.5,9.5
-  - uid: 2658
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: -1.5,4.5
 - proto: AirSensor
   entities:
   - uid: 2436
@@ -4424,6 +4426,8 @@ entities:
     - type: Transform
       parent: 1
       pos: -5.5166616,4.9901295
+    - type: Physics
+      canCollide: False
 - proto: ClothingBeltUtilityFilled
   entities:
   - uid: 122
@@ -4902,6 +4906,8 @@ entities:
     - type: Transform
       parent: 1
       pos: 3.6731954,-3.2653575
+    - type: Physics
+      canCollide: False
 - proto: FoodShakerPepper
   entities:
   - uid: 700
@@ -4909,6 +4915,8 @@ entities:
     - type: Transform
       parent: 1
       pos: 3.3815284,-3.8490963
+    - type: Physics
+      canCollide: False
 - proto: FoodShakerSalt
   entities:
   - uid: 699
@@ -4916,6 +4924,8 @@ entities:
     - type: Transform
       parent: 1
       pos: 3.6627784,-3.8386722
+    - type: Physics
+      canCollide: False
 - proto: GasMixerOn
   entities:
   - uid: 624
