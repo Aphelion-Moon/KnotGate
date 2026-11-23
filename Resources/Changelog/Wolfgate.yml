@@ -8909,3 +8909,12 @@ Entries:
   id: 100570
   time: '2026-11-23T03:39:44.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/808
+- author: DriftingSkies
+  changes:
+    - type: Tweak
+      message: >-
+        Replaced the ambient music in the inner, middle and outer rings, the
+        Outer Cloud and the beacon clusters with new tracks.
+  id: 100571
+  time: '2026-11-23T09:00:02.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/792
