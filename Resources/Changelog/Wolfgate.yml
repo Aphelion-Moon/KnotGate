@@ -9069,3 +9069,12 @@ Entries:
   id: 100580
   time: '2026-11-23T23:17:15.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/823
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Mapping mode: walls and entities no longer disappear after a live test
+        or after switching levels.
+  id: 100581
+  time: '2026-11-23T23:18:17.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/822
