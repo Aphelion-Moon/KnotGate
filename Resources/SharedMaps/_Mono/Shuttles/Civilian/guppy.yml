@@ -4,8 +4,8 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261121-095513-04adf0d-tm740-tm700-63d88de8
-  time: 11/22/2026 21:45:29
-  entityCount: 257
+  time: 11/23/2026 00:00:00
+  entityCount: 256
 maps: []
 grids:
 - 1
@@ -320,20 +320,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 14.5,10.5
-- proto: BunkBottom
-  entities:
-  - uid: 37
-    components:
-    - type: Transform
-      parent: 1
-      pos: 13.5,12.5
-- proto: BunkTop
-  entities:
-  - uid: 38
-    components:
-    - type: Transform
-      parent: 1
-      pos: 13.5,12.5
 - proto: CableApcExtension
   entities:
   - uid: 39
@@ -791,6 +777,17 @@ entities:
     - type: Transform
       parent: 1
       pos: 11.5,11.5
+- proto: ComputerGunneryConsole
+  entities:
+  - uid: 136
+    components:
+    - type: Transform
+      parent: 1
+      pos: 12.5,15.5
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
 - proto: ComputerShuttle
   entities:
   - uid: 123
@@ -886,11 +883,11 @@ entities:
       pos: 13.5,14.5
 - proto: FaxMachineShip
   entities:
-  - uid: 136
+  - uid: 38
     components:
     - type: Transform
       parent: 1
-      pos: 12.5,15.5
+      pos: 13.5,12.5
 - proto: FuelPlasma
   entities:
   - uid: 137
@@ -979,6 +976,17 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 14.5,16.5
+- proto: GunneryServerLow
+  entities:
+  - uid: 157
+    components:
+    - type: Transform
+      parent: 1
+      pos: 12.5,7.5
+    - type: Battery
+      startingCharge: 0
+    - type: ApcPowerReceiver
+      powerLoad: 5
 - proto: Gyroscope
   entities:
   - uid: 150
@@ -1031,11 +1039,11 @@ entities:
       pos: 11.5,10.5
 - proto: OreBag
   entities:
-  - uid: 157
+  - uid: 160
     components:
     - type: Transform
       parent: 1
-      pos: 12.494303,7.361345
+      pos: 10.657038,7.322768
     - type: Physics
       canCollide: False
 - proto: OreProcessor
@@ -1054,11 +1062,11 @@ entities:
       pos: 10.5,10.5
 - proto: Pickaxe
   entities:
-  - uid: 160
+  - uid: 166
     components:
     - type: Transform
       parent: 1
-      pos: 12.421385,7.517703
+      pos: 10.469538,7.5519347
     - type: Physics
       canCollide: False
 - proto: PortableGeneratorPacmanShuttle
@@ -1088,17 +1096,17 @@ entities:
       pos: 12.5,14.5
 - proto: Rack
   entities:
+  - uid: 37
+    components:
+    - type: Transform
+      parent: 1
+      pos: 13.5,12.5
   - uid: 165
     components:
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 13.5,4.5
-  - uid: 166
-    components:
-    - type: Transform
-      parent: 1
-      pos: 12.5,7.5
   - uid: 167
     components:
     - type: Transform
@@ -1109,11 +1117,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 13.5,10.5
-  - uid: 169
-    components:
-    - type: Transform
-      parent: 1
-      pos: 12.5,15.5
 - proto: Railing
   entities:
   - uid: 170
@@ -1657,7 +1660,7 @@ entities:
       canCollide: False
 - proto: WGWeaponTurretMiningLaserSmall
   entities:
-  - uid: 257
+  - uid: 258
     components:
     - type: Transform
       parent: 1
