@@ -9045,3 +9045,10 @@ Entries:
   id: 100578
   time: '2026-11-23T14:56:50.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/820
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: Shipyards no longer pay for narcotics aboard a ship you sell.
+  id: 100579
+  time: '2026-11-23T17:37:51.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/825
