@@ -8946,3 +8946,16 @@ Entries:
   id: 100573
   time: '2026-11-23T09:34:42.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/798
+- author: Gandalf2k15
+  changes:
+    - type: Tweak
+      message: >-
+        Empty space chunks nobody has visited for ten minutes are cleaned up, so
+        long rounds hold fewer entities.
+    - type: Tweak
+      message: >-
+        Footsteps, gunshots, casings and bullet hits are sent to players in a
+        lighter way. They should sound the same.
+  id: 100574
+  time: '2026-11-23T09:48:46.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/804
