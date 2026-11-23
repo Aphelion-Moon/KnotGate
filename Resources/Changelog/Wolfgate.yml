@@ -8893,3 +8893,19 @@ Entries:
   id: 100569
   time: '2026-11-23T03:32:27.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/809
+- author: ImogenOC
+  changes:
+    - type: Tweak
+      message: >-
+        LAPC substations now add their full 60 kW of supply at once instead of
+        15 kW, so a big machine switching on no longer blacks out the rest of
+        the room.
+    - type: Add
+      message: >-
+        Better capacitors raise an LAPC's supply, up to 210 kW with bluespace
+        capacitors.
+    - type: Add
+      message: Guidebook page for LAPC substations, under Engineering > Power.
+  id: 100570
+  time: '2026-11-23T03:39:44.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/808
