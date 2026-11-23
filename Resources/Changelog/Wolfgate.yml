@@ -8918,3 +8918,13 @@ Entries:
   id: 100571
   time: '2026-11-23T09:00:02.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/792
+- author: ImogenOC
+  changes:
+    - type: Add
+      message: >-
+        You can give your character a second, adult headshot from the Anatomy
+        tab. It shows with your adult description on the examine card, to the
+        same people who can read it.
+  id: 100572
+  time: '2026-11-23T09:06:53.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/811
