@@ -8828,3 +8828,12 @@ Entries:
   id: 100564
   time: '2026-11-23T00:04:11.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/805
+- author: ImogenOC
+  changes:
+    - type: Tweak
+      message: >-
+        The disposable ballistic turret fires one 9mm round per shot instead of
+        two rounds, and blows itself up once its 50 rounds are spent.
+  id: 100565
+  time: '2026-11-23T00:38:13.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/806
