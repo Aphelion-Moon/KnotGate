@@ -4,7 +4,7 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261121-095513-04adf0d-tm740-tm700-63d88de8
-  time: 11/23/2026 03:51:05
+  time: 11/23/2026 14:34:41
   entityCount: 1519
 maps: []
 grids:
@@ -671,7 +671,6 @@ entities:
             2: 1024
           0,6:
             0: 13785
-            1: 4
           -1,6:
             0: 136
           0,7:
@@ -4410,6 +4409,18 @@ entities:
     - type: Transform
       parent: 1
       pos: 0.5,-5.5
+  - uid: 673
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 3.5,-4.5
+  - uid: 707
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 3.5,-3.5
 - proto: ClosetFireFilled
   entities:
   - uid: 2606
@@ -6382,6 +6393,11 @@ entities:
       pos: 5.5,11.5
 - proto: HardpointBallisticLight
   entities:
+  - uid: 14
+    components:
+    - type: Transform
+      parent: 1
+      pos: 2.5,24.5
   - uid: 836
     components:
     - type: Transform
@@ -6418,14 +6434,6 @@ entities:
       parent: 1
       rot: 3.141592653589793 rad
       pos: -0.5,21.5
-- proto: HardpointMissileMedium
-  entities:
-  - uid: 2445
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 2.5,24.5
 - proto: HolofanProjector
   entities:
   - uid: 88
@@ -6579,20 +6587,6 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 4.5,-4.5
-- proto: N14TableCounterBar
-  entities:
-  - uid: 14
-    components:
-    - type: Transform
-      parent: 1
-      rot: -1.5707963267948966 rad
-      pos: 3.5,-4.5
-  - uid: 673
-    components:
-    - type: Transform
-      parent: 1
-      rot: -1.5707963267948966 rad
-      pos: 3.5,-3.5
 - proto: NFHolopadShip
   entities:
   - uid: 1455
@@ -9787,20 +9781,18 @@ entities:
       pos: -2.5,16.5
 - proto: WeaponTurretL85Autocannon
   entities:
+  - uid: 708
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 2.5,24.5
   - uid: 1412
     components:
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 9.5,0.5
-- proto: WeaponTurretTovek
-  entities:
-  - uid: 2493
-    components:
-    - type: Transform
-      parent: 1
-      rot: 3.141592653589793 rad
-      pos: 2.5,24.5
 - proto: WeldingFuelTankFull
   entities:
   - uid: 2523
