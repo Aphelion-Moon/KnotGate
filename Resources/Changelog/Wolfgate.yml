@@ -9052,3 +9052,20 @@ Entries:
   id: 100579
   time: '2026-11-23T17:37:51.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/825
+- author: ImogenOC
+  changes:
+    - type: Add
+      message: 'Mapping mode: a live test shows the ship''s initialised value.'
+    - type: Add
+      message: >-
+        Mapping mode: a Mirror crane tool flips mobile drydock cranes without
+        tools.
+    - type: Add
+      message: Fuelled, running IRE controller variants for mappers, for 1 to 6 cores.
+    - type: Tweak
+      message: >-
+        Mapping mode's issue check now catches stacked walls of different types
+        and overlapping pipes.
+  id: 100580
+  time: '2026-11-23T23:17:15.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/823
