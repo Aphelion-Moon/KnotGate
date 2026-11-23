@@ -9006,3 +9006,31 @@ Entries:
   id: 100576
   time: '2026-11-23T12:21:54.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/807
+- author: Erol509
+  changes:
+    - type: Add
+      message: >-
+        Added Springlock and Magnetic Deployment modules. Springlock suits can
+        snap shut and injure the wearer when triggered; Magnetic Deployment
+        halves activation time.
+    - type: Add
+      message: >-
+        MODsuit sphere impacts now build up stamina damage and can stun the
+        wearer.
+    - type: Add
+      message: >-
+        MODsuit injectors now function as hypopens, and two suits come with
+        built-in insulation.
+    - type: Tweak
+      message: >-
+        Worn MODsuit helmet lights can no longer be toggled; use the flashlight
+        module for light.
+    - type: Fix
+      message: >-
+        EMP shielding works whenever the suit has an EMP shield module
+        installed.
+    - type: Fix
+      message: Built-in modules no longer count toward removable module complexity.
+  id: 100577
+  time: '2026-11-23T14:55:59.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/819
