@@ -4,7 +4,7 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261121-095513-04adf0d-tm740-tm700-63d88de8
-  time: 11/23/2026 03:40:08
+  time: 11/23/2026 03:51:05
   entityCount: 1519
 maps: []
 grids:
@@ -2267,6 +2267,30 @@ entities:
       parent: 1
       rot: 1.5707963267948966 rad
       pos: -4.5,10.5
+  - uid: 703
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 10.5,5.5
+  - uid: 704
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 10.5,6.5
+  - uid: 705
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 8.5,6.5
+  - uid: 706
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 8.5,5.5
   - uid: 2462
     components:
     - type: Transform
@@ -2302,32 +2326,6 @@ entities:
     - type: Transform
       parent: 1
       pos: -0.5,3.5
-- proto: BlastDoorWindows
-  entities:
-  - uid: 2480
-    components:
-    - type: Transform
-      parent: 1
-      rot: -1.5707963267948966 rad
-      pos: 10.5,6.5
-  - uid: 2516
-    components:
-    - type: Transform
-      parent: 1
-      rot: -1.5707963267948966 rad
-      pos: 10.5,5.5
-  - uid: 2560
-    components:
-    - type: Transform
-      parent: 1
-      rot: -1.5707963267948966 rad
-      pos: 8.5,5.5
-  - uid: 2562
-    components:
-    - type: Transform
-      parent: 1
-      rot: -1.5707963267948966 rad
-      pos: 8.5,6.5
 - proto: BoozeDispenser
   entities:
   - uid: 254
@@ -4426,8 +4424,6 @@ entities:
     - type: Transform
       parent: 1
       pos: -5.5166616,4.9901295
-    - type: Physics
-      canCollide: False
 - proto: ClothingBeltUtilityFilled
   entities:
   - uid: 122
@@ -7929,16 +7925,16 @@ entities:
       pos: 4.5,4.5
     - type: DeviceLinkSource
       linkedPorts:
-        2560:
+        704:
         - - Pressed
           - Toggle
-        2562:
+        703:
         - - Pressed
           - Toggle
-        2480:
+        706:
         - - Pressed
           - Toggle
-        2516:
+        705:
         - - Pressed
           - Toggle
   - uid: 921
