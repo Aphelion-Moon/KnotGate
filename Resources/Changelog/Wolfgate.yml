@@ -8868,3 +8868,28 @@ Entries:
   id: 100568
   time: '2026-11-23T03:31:03.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/813
+- author: ImogenOC
+  changes:
+    - type: Tweak
+      message: >-
+        Admins skip request cooldowns (boombox, ship PA, distress, hailing,
+        feedback, Unstick me, respawn timer, comms console, news, fax, holopad
+        broadcast, bounty posting) and chat rate limits, and respawn without the
+        rules window.
+    - type: Fix
+      message: >-
+        Hovering over a manifested admin and moving off them no longer turns the
+        screen black.
+    - type: Fix
+      message: >-
+        A planet wreck that gets back to space is a ship again, not planet
+        ground.
+    - type: Add
+      message: Admin alerts about an entity have a follow link in chat.
+    - type: Fix
+      message: >-
+        Unstick me frees players wedged against hull armor out in space, and
+        searches up to 10 tiles for room.
+  id: 100569
+  time: '2026-11-23T03:32:27.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/809
