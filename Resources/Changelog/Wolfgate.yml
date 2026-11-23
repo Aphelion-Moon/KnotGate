@@ -9034,3 +9034,14 @@ Entries:
   id: 100577
   time: '2026-11-23T14:55:59.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/819
+- author: Sushiburger
+  changes:
+    - type: Tweak
+      message: Novalite C1 mags now craftable in the Mercenary Techfab
+    - type: Tweak
+      message: >-
+        Whistles now buyable from clothesmate, as well as craftable in the
+        Mercenary Techfab
+  id: 100578
+  time: '2026-11-23T14:56:50.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/820
