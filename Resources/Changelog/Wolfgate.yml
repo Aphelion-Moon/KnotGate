@@ -8972,3 +8972,37 @@ Entries:
   id: 100575
   time: '2026-11-23T11:36:15.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/818
+- author: Balls2zawall
+  changes:
+    - type: Remove
+      message: >-
+        Removed the Skipjack as it wasn't able to be acquired and was added
+        mistakenly.
+    - type: Fix
+      message: Removed a duplicate Vrakrititat ship file.
+    - type: Fix
+      message: changed the Lurker's prefix to a postfix on IFF.
+    - type: Fix
+      message: changed the Excelsior's prefix to a postfix on IFF.
+    - type: Fix
+      message: >-
+        The Viscount's LV wiring has been pathed properly and avoids the walls
+        where it can.
+    - type: Fix
+      message: >-
+        Fixed the mapname for the PDV Foxtrot-II, it should have the proper name
+        on the shipyard now.
+    - type: Fix
+      message: >-
+        Added missing latejoin spawners to the Venom, Leviathan, Lancehead, and
+        Keelback. VG group members shouldn't spawn outside their ships when
+        starting as crew now.
+    - type: Fix
+      message: Fixes a loose distro pipe in anvilhold's atrium area.
+    - type: Tweak
+      message: >-
+        Gives the guppy an m12 mining laser to do some rock bottom asteroid
+        mining and increases its price accordingly.
+  id: 100576
+  time: '2026-11-23T12:21:54.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/807
