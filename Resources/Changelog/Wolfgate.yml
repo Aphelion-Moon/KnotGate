@@ -8959,3 +8959,16 @@ Entries:
   id: 100574
   time: '2026-11-23T09:48:46.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/804
+- author: Gandalf2k15
+  changes:
+    - type: Add
+      message: >-
+        Players waiting in the join queue can play Freedoom and Freedoom Phase
+        2.
+    - type: Tweak
+      message: >-
+        The moproach on the connect and queue screens asks for spills, and
+        clicking the floor makes a mess it rushes to mop up.
+  id: 100575
+  time: '2026-11-23T11:36:15.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/818
