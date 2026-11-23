@@ -8837,3 +8837,12 @@ Entries:
   id: 100565
   time: '2026-11-23T00:38:13.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/806
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Cleanbots and other NPCs now path around railings, fences and barricades
+        instead of getting stuck on them.
+  id: 100566
+  time: '2026-11-23T01:49:51.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/810
