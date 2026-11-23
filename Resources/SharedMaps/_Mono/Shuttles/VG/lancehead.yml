@@ -5,7 +5,7 @@ meta:
   forkId: wolfgate-mapping
   forkVersion: 20261121-095513-04adf0d-tm740-tm700-63d88de8
   time: 11/22/2026 20:42:03
-  entityCount: 1244
+  entityCount: 1247
 maps: []
 grids:
 - 1
@@ -6460,6 +6460,27 @@ entities:
     - type: Transform
       parent: 1
       pos: 3.5,0.5
+- proto: SpawnPointVGCommander
+  entities:
+  - uid: 1245
+    components:
+    - type: Transform
+      parent: 1
+      pos: 3.5,0.5
+- proto: SpawnPointVGInfanteer
+  entities:
+  - uid: 1246
+    components:
+    - type: Transform
+      parent: 1
+      pos: 4.5,0.5
+- proto: SpawnPointVGLieutenant
+  entities:
+  - uid: 1247
+    components:
+    - type: Transform
+      parent: 1
+      pos: 4.5,0.5
 - proto: StairDark
   entities:
   - uid: 889

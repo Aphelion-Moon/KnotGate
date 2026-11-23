@@ -148,11 +148,16 @@ share from its slot, or from the counter of a trader hosting it (`ShipyardHostCa
 - [`Resources/Prototypes/_Mono/Recipes/Lathes/Packs/Factions/phaethon_dynasty.yml`](../../../Resources/Prototypes/_Mono/Recipes/Lathes/Packs/Factions/phaethon_dynasty.yml): Foxtrot-II voucher
 - [`Resources/Prototypes/_Mono/Roles/Jobs/Medical/medic.yml`](../../../Resources/Prototypes/_Mono/Roles/Jobs/Medical/medic.yml): free Triage or Stubby
 - [`Resources/Prototypes/_Mono/Roles/Jobs/ViperGroup/commander.yml`](../../../Resources/Prototypes/_Mono/Roles/Jobs/ViperGroup/commander.yml): VG commanders start with a voucher for their Wolf
+- [`Resources/Prototypes/_Mono/Shipyard/Civilian/guppy.yml`](../../../Resources/Prototypes/_Mono/Shipyard/Civilian/guppy.yml): price includes its single mining laser
 - [`Resources/Prototypes/_NF/Entities/Objects/Devices/Misc/ship_vouchers.yml`](../../../Resources/Prototypes/_NF/Entities/Objects/Devices/Misc/ship_vouchers.yml)
   - Mono vouchers only list their vessels, access alone offers nothing
   - the mail ship, not the janitor's
   - Judges can redeem Roswell with the standard station guard voucher
 - [`Resources/Prototypes/_NF/Entities/Structures/Machines/Computers/computers_shipyard.yml`](../../../Resources/Prototypes/_NF/Entities/Structures/Machines/Computers/computers_shipyard.yml): cash in a destroyed console drops instead of being deleted
 - [`Resources/SharedMaps/_Mono/Shuttles/Civilian/guppy.yml`](../../../Resources/SharedMaps/_Mono/Shuttles/Civilian/guppy.yml): Saved with its air filled in; the starter ship spawned as vacuum.
+- [`Resources/SharedMaps/_Mono/Shuttles/VG/keelback.yml`](../../../Resources/SharedMaps/_Mono/Shuttles/VG/keelback.yml): VG shipyard shuttle map with crew spawns for its listed jobs.
+- [`Resources/SharedMaps/_Mono/Shuttles/VG/lancehead.yml`](../../../Resources/SharedMaps/_Mono/Shuttles/VG/lancehead.yml): VG shipyard shuttle map with restored job-specific crew spawns.
+- [`Resources/SharedMaps/_Mono/Shuttles/VG/leviathan.yml`](../../../Resources/SharedMaps/_Mono/Shuttles/VG/leviathan.yml): VG shipyard shuttle map for its shipyard listing.
+- [`Resources/SharedMaps/_Mono/Shuttles/VG/venom.yml`](../../../Resources/SharedMaps/_Mono/Shuttles/VG/venom.yml): VG shipyard shuttle map with restored job-specific crew spawns.
 
 <!-- WOLFGATE-GENERATED END -->
