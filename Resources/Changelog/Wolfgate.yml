@@ -8855,3 +8855,16 @@ Entries:
   id: 100567
   time: '2026-11-23T02:05:25.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/766
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        Guns fired from the pilot's cockpit no longer stop working after a brief
+        loss of the seat or piloting.
+    - type: Tweak
+      message: >-
+        Fires on planet ground no longer keep spreading as new sparks or blasts
+        land beside them, and each planet can only have so many burning at once.
+  id: 100568
+  time: '2026-11-23T03:31:03.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/813
