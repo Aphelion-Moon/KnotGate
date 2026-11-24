@@ -9197,3 +9197,12 @@ Entries:
   id: 100587
   time: '2026-11-24T14:01:58.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/830
+- author: MacaroniCritter
+  changes:
+    - type: Tweak
+      message: >-
+        The Bonita CIV has been outfitted with much more service themed
+        supplies.
+  id: 100588
+  time: '2026-11-24T17:04:56.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/829
