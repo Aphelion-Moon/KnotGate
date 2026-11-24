@@ -9165,3 +9165,12 @@ Entries:
   id: 100585
   time: '2026-11-24T13:59:43.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/786
+- author: DriftingSkies
+  changes:
+    - type: Add
+      message: C*%^ Ambience
+    - type: Fix
+      message: Fix cutoff and looping of ambience.
+  id: 100586
+  time: '2026-11-24T14:00:56.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/821
