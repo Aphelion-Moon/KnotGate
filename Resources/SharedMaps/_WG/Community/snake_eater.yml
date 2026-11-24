@@ -4,8 +4,8 @@ meta:
   engineVersion: 291.0.4
   forkId: wolfgate-mapping
   forkVersion: 20261121-095513-04adf0d-tm740-tm700-63d88de8
-  time: 11/23/2026 19:09:35
-  entityCount: 1521
+  time: 11/24/2026 00:07:22
+  entityCount: 1526
 maps: []
 grids:
 - 1
@@ -954,7 +954,7 @@ entities:
       pos: 8.5,9.5
 - proto: AirSensor
   entities:
-  - uid: 753
+  - uid: 756
     components:
     - type: Transform
       parent: 1
@@ -1084,7 +1084,7 @@ entities:
     - type: Transform
       parent: 1
       pos: -3.5,-0.5
-  - uid: 763
+  - uid: 764
     components:
     - type: Transform
       parent: 1
@@ -2311,14 +2311,20 @@ entities:
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
+      pos: 8.5,10.5
+  - uid: 710
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
       pos: -3.5,9.5
-  - uid: 742
+  - uid: 753
     components:
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: -3.5,10.5
-  - uid: 756
+  - uid: 758
     components:
     - type: Transform
       parent: 1
@@ -2429,6 +2435,11 @@ entities:
       parent: 1
       rot: 3.141592653589793 rad
       pos: -2.5,6.5
+  - uid: 772
+    components:
+    - type: Transform
+      parent: 1
+      pos: 7.5,11.5
   - uid: 2498
     components:
     - type: Transform
@@ -4460,6 +4471,8 @@ entities:
     - type: Transform
       parent: 1
       pos: -5.5166616,4.9901295
+    - type: Physics
+      canCollide: False
 - proto: ClothingBeltUtilityFilled
   entities:
   - uid: 122
@@ -6387,7 +6400,7 @@ entities:
       pos: -1.5,12.5
 - proto: Handrail
   entities:
-  - uid: 758
+  - uid: 763
     components:
     - type: Transform
       parent: 1
@@ -6658,12 +6671,6 @@ entities:
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 10.5,10.5
-  - uid: 2592
-    components:
-    - type: Transform
-      parent: 1
-      rot: 1.5707963267948966 rad
-      pos: 8.5,10.5
 - proto: PlastitaniumWindow
   entities:
   - uid: 866
@@ -7132,6 +7139,24 @@ entities:
       pos: 2.5,13.5
 - proto: RadarEdgeMarkerStraight
   entities:
+  - uid: 781
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 6.5,4.5
+  - uid: 793
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 7.5,4.5
+  - uid: 797
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 8.5,4.5
   - uid: 953
     components:
     - type: Transform
@@ -7931,7 +7956,7 @@ entities:
       pos: 5.5,1.5
 - proto: SignalButton
   entities:
-  - uid: 764
+  - uid: 771
     components:
     - type: Transform
       parent: 1
@@ -7942,13 +7967,13 @@ entities:
         257:
         - - Pressed
           - Toggle
-        756:
+        758:
         - - Pressed
           - Toggle
-        707:
+        710:
         - - Pressed
           - Toggle
-        742:
+        753:
         - - Pressed
           - Toggle
         249:
@@ -7961,6 +7986,16 @@ entities:
         - - Pressed
           - Toggle
         247:
+        - - Pressed
+          - Toggle
+  - uid: 775
+    components:
+    - type: Transform
+      parent: 1
+      pos: 7.5,11.5
+    - type: DeviceLinkSource
+      linkedPorts:
+        707:
         - - Pressed
           - Toggle
   - uid: 916
@@ -9554,12 +9589,12 @@ entities:
       pos: 2.5,13.5
 - proto: WallReinforced
   entities:
-  - uid: 710
+  - uid: 737
     components:
     - type: Transform
       parent: 1
       pos: -3.5,6.5
-  - uid: 737
+  - uid: 742
     components:
     - type: Transform
       parent: 1
