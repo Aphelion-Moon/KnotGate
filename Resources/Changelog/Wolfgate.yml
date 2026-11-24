@@ -9174,3 +9174,26 @@ Entries:
   id: 100586
   time: '2026-11-24T14:00:56.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/821
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Trade chutes no longer pay more for a crate than their own station's
+        vendors charge, so swapping crates between stations no longer makes
+        money.
+    - type: Tweak
+      message: >-
+        A station short of a trade good keeps its last crates. Its vendors show
+        the good as sold out until it is restocked, and its chutes pay the full
+        restock rate.
+    - type: Tweak
+      message: >-
+        A chute's examine text and price paper, and the Market app, now list
+        goods taken to restock or for an open order.
+    - type: Tweak
+      message: >-
+        Sector Exchange announcements moved from Broadband to the Supply
+        channel. Put a cargo encryption key in your headset to hear them.
+  id: 100587
+  time: '2026-11-24T14:01:58.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/830
