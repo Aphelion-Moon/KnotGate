@@ -1504,8 +1504,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 384
-      configurators:
-      - invalid
 - proto: FloorDrain
   entities:
   - uid: 170
@@ -2115,8 +2113,6 @@ entities:
       parent: 1
       pos: 9.5,13.5
     - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeLayers
       pipeLayer: Tertiary
     - type: AtmosPipeColor
@@ -2130,8 +2126,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 9.5,11.5
     - type: DeviceNetwork
-      configurators:
-      - invalid
     - type: AtmosPipeLayers
       pipeLayer: Secondary
     - type: AtmosPipeColor
