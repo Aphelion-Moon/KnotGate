@@ -9206,3 +9206,10 @@ Entries:
   id: 100588
   time: '2026-11-24T17:04:56.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/829
+- author: MacaroniCritter
+  changes:
+    - type: Tweak
+      message: Polished the VG Snake Eater with additional equipment and organization.
+  id: 100589
+  time: '2026-11-24T17:05:19.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/815
