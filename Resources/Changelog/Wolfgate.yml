@@ -9144,3 +9144,24 @@ Entries:
   id: 100584
   time: '2026-11-24T12:50:34.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/827
+- author: Erol509
+  changes:
+    - type: Add
+      message: >-
+        Added a redesigned PDA interface with Home, Info, and Settings views,
+        program navigation, alerts, and device controls.
+    - type: Add
+      message: >-
+        Added an app store for browsing, searching, downloading, and installing
+        PDA programs, with download progress and access requirements.
+    - type: Add
+      message: >-
+        Added PDA storage management, including capacity indicators, removable
+        data disks, and options to install, uninstall, and transfer programs.
+    - type: Add
+      message: >-
+        Added notification controls and expanded cartridge installation and
+        storage limits.
+  id: 100585
+  time: '2026-11-24T13:59:43.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/786
