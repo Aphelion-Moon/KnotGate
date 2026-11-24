@@ -9088,3 +9088,12 @@ Entries:
   id: 100582
   time: '2026-11-24T02:11:07.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/826
+- author: ImogenOC
+  changes:
+    - type: Fix
+      message: >-
+        The synthetic readout, death banner and explanation card now sit inside
+        the game view at a console's cockpit view instead of drifting off it.
+  id: 100583
+  time: '2026-11-24T11:39:24.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/828
