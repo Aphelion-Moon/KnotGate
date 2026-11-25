@@ -4,6 +4,7 @@
 - type: pointOfInterest
   id: Hokkaido
   parent: [BasePOI, BaseRepairablePOI]
+  spawnGamePreset: [ MonoStandard ] # KNOTGATE(Haven): faction or hostile station kept out of KGHaven
   name: 'MMC Hokkaido'
   minimumDistance: 2000
   maximumDistance: 8000

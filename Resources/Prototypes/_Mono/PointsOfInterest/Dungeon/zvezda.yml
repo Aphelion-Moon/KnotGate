@@ -10,6 +10,7 @@
 - type: pointOfInterest
   id: Zvezda
   parent: [BasePOI, BaseRepairablePOI]
+  spawnGamePreset: [ MonoStandard ] # KNOTGATE(Haven): faction or hostile station kept out of KGHaven
   name: 'Zvezda Orbital Habitation'
   minimumDistance: 4000
   maximumDistance: 10000

@@ -1,0 +1,18 @@
+# KnotGate's layer for Tools/_WG/Ci/modules.py (run it with --config Tools/_KG/Ci/modules.yml).
+# See AGENTS.md and Docs/_WG/Downstreams/README.md. Inside this layer every Wolfgate file, _WG included, is upstream.
+layer:
+  prefix: KG
+  marker: KNOTGATE
+  forbidden:
+    - path: Content.Server.Database/Migrations/**
+      reason: KnotGate shares Wolfgate's database; schema changes go to Wolfgate as a pull request
+
+# The Wolfgate commit KnotGate is based on (its merge-base with Wolfgate's main). The pull request check treats lines
+# that match it as upstream code. Move it forward after merging Wolfgate in.
+fork_point: 552bf55f76a8aadc4946c889db8f0ba50ec6a0fd
+
+# Modules that live outside _KG: none yet.
+external: {}
+
+# Edits outside _KG that can't hold a KNOTGATE marker (JSON, images, audio, rich text, maps): path, module, reason.
+unmarked: []
