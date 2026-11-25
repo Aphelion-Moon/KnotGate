@@ -2,7 +2,7 @@
 
 KnotGate (`Aphelion-Moon/KnotGate`) is a downstream of Wolfgate (`VanguardControl/Wolfgate`): a PvE and ERP server
 that shares Wolfgate's player database (characters, bank balances, bans, whitelist). Everything below the KnotGate
-section is Wolfgate's guide and still applies, with these differences. `Docs/_WG/Downstreams/README.md` has the
+section is Wolfgate's guide and still applies, with these differences. `Docs/_KG/Upstream/README.md` has the
 reasoning.
 
 ## The KnotGate layer
@@ -16,9 +16,9 @@ reasoning.
 - **Prefer, in order:** a setting in KnotGate's `server_config.toml`; a new prototype or system in `_KG`; a marked
   edit. A change every Wolfgate downstream would want, or one that needs a new switch in Wolfgate, goes to Wolfgate
   as a pull request.
-- **Docs and checks:** `python Tools/_WG/Ci/modules.py --config Tools/_KG/Ci/modules.yml --write` regenerates the
-  layer's docs (`Docs/_KG/NONMODULAR.md`, module READMEs); CI runs `--check` and `--pr-check` with the same
-  `--config`. Wolfgate's own `--check` still runs and must stay clean.
+- **Docs and checks:** `python Tools/_KG/Ci/modules.py --write` regenerates the layer's docs
+  (`Docs/_KG/NONMODULAR.md`, module READMEs); CI runs its `--check` and `--pr-check`. Wolfgate's own
+  `python Tools/_WG/Ci/modules.py --check` still runs and must stay clean; Wolfgate's `--pr-check` doesn't apply here.
 
 ## The shared database
 
@@ -31,7 +31,8 @@ reasoning.
 ## Merging Wolfgate in
 
 On a branch named `upstream/<date>`: `git fetch wolfgate`, `git merge wolfgate/main`, resolve, regenerate both sets of
-docs, and move `fork_point` in `Tools/_KG/Ci/modules.yml` to the merged Wolfgate commit. Open the pull request
+docs, and move `fork_point` in `Tools/_KG/Ci/modules.yml` to the merged Wolfgate commit. If Wolfgate changed
+`Tools/_WG/Ci/modules.py`, port it into KnotGate's copy. Open the pull request
 against `Aphelion-Moon/KnotGate` with a title starting `[UPSTREAM]`. Pass `--repo Aphelion-Moon/KnotGate` to `gh`.
 Merge Wolfgate's migrations promptly, since they are already live on the shared database.
 
@@ -102,11 +103,6 @@ Keep upstream edits to the smallest hook that works. Prefer, in order: a new `_W
 existing events, a partial class in `_WG`, then a marked edit. Don't reformat, reorder or re-indent upstream
 code, and don't delete upstream code outright; comment or branch around it inside a marked block so a merge
 shows what changed.
-
-Wolfgate has downstreams of its own (KnotGate, which shares this database). For their sake: put a feature a
-downstream might not want behind a cvar with Wolfgate's behaviour as the default, keep migrations additive
-(nullable or defaulted columns; rename or drop a release later), and keep anything saved in a profile here
-rather than in a downstream. `Docs/_WG/Downstreams/README.md` has the rules and how a downstream is set up.
 
 ## Documenting changes
 
