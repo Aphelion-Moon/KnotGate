@@ -17,6 +17,7 @@ Docs/_KG/Upstream.
 
 ## Non-modular edits
 
+- [`.coderabbit.yaml`](../../../.coderabbit.yaml): CodeRabbit review settings for KnotGate pull requests
 - [`.github/workflows/publish.yml`](../../../.github/workflows/publish.yml): KnotGate publishes to its own CDN fork
 - [`.github/workflows/wg-modules.yml`](../../../.github/workflows/wg-modules.yml)
   - KnotGate's edits carry KNOTGATE markers, checked by the _KG steps below instead
