@@ -9220,3 +9220,32 @@ Entries:
   id: 100590
   time: '2026-11-24T23:59:50.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/803
+- author: Happyowl93
+  changes:
+    - type: Fix
+      message: >-
+        Fentanyl solidifies at the documented 25:1 ratio. Fentanyl left over
+        after a batch explodes, so measure in full 25u batches.
+    - type: Fix
+      message: Moths and goblins get drunk again.
+    - type: Fix
+      message: The Common Writ guidebook lists the narcotics and unlawful loading laws.
+    - type: Fix
+      message: Repair drydocks and SRDs rebuild the mobile drydock console.
+    - type: Fix
+      message: >-
+        Drydocks rebuild a wrecked hull outward from what is left, instead of
+        leaving parts floating in space.
+    - type: Fix
+      message: >-
+        Holding a reinforced or bluespace jug no longer black-screens Resomi
+        players.
+    - type: Fix
+      message: The Avali brain death timer runs again.
+    - type: Fix
+      message: >-
+        A synthetic's radiation collector draws off radiation already on the
+        chassis.
+  id: 100591
+  time: '2026-11-25T14:18:13.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/838
