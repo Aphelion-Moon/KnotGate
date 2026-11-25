@@ -9213,3 +9213,10 @@ Entries:
   id: 100589
   time: '2026-11-24T17:05:19.0000000+00:00'
   url: https://github.com/VanguardControl/Wolfgate/pull/815
+- author: Dimasw99
+  changes:
+    - type: Tweak
+      message: Major overhaul of ASF Guardian
+  id: 100590
+  time: '2026-11-24T23:59:50.0000000+00:00'
+  url: https://github.com/VanguardControl/Wolfgate/pull/803
