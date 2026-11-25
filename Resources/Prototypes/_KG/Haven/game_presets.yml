@@ -1,0 +1,36 @@
+# KnotGate's only game preset: Wolfgate's Standard sector without the faction stations, the TSF/PDV standoff or
+# hostile events. Faction stations stay out because their spawnGamePreset lists don't name KGHaven.
+- type: gamePreset
+  id: KGHaven
+  alias:
+    - haven
+  name: kg-haven-title
+  description: kg-haven-description
+  showInVote: false
+  rules:
+  - NFAdventure
+  - KGHavenEventScheduler
+  - BluespaceSalvageEventScheduler
+  - FrontierRoundstartVariation
+  - StarSystemKyphrus
+
+# The calm events from BasicGameRulesTable, minus borers, the Syndicate crate, smuggling faxes and ion storms.
+- type: entityTable
+  id: KGHavenEventsTable
+  table: !type:AllSelector
+    children:
+    - id: CockroachMigration
+    - id: MouseMigration
+    - id: SnailMigrationLowPop
+    - id: RandomSentience
+    - id: SolarFlare
+    - id: BluespaceCargoCrate
+    - id: BluespaceMcCargoCrate
+
+- type: entity
+  id: KGHavenEventScheduler
+  parent: BaseGameRule
+  components:
+  - type: BasicStationEventScheduler
+    scheduledGameRules: !type:NestedSelector
+      tableId: KGHavenEventsTable

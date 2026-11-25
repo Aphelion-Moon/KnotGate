@@ -1,0 +1,14 @@
+# The storyteller preset KnotGate runs (wg.encounters.preset, with wg.encounters.vote off): friendly traffic and
+# freight only. Threats, distress calls (freighters under attack) and Judge patrols never spawn.
+- type: wgEncounterPreset
+  id: KGEncounterPresetHaven
+  name: kg-encounter-preset-haven
+  votable: false
+  budget: 2
+  budgetPerPlayer: 0.02
+  intervalScale: 1.5
+  roundStart: 2
+  weights:
+    Threat: 0
+    Distress: 0
+    Patrol: 0

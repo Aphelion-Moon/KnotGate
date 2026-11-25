@@ -1,3 +1,6 @@
+<!-- KNOTGATE: this fork's own note above Wolfgate's README -->
+**KnotGate** is a downstream of [Wolfgate](https://github.com/VanguardControl/Wolfgate): a PvE and ERP server that shares Wolfgate's player database. Contributor rules are in [AGENTS.md](AGENTS.md).
+
 <!-- WOLFGATE(Branding) START: rebrand from Monolith to Wolfgate -->
 <p align="center"><img alt="Wolfgate" width="800" height="266" src="Resources/Textures/_WG/Branding/Logo/logo.png" /></p>
 

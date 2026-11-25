@@ -4,6 +4,7 @@
 - type: pointOfInterest
   id: Underground
   parent: [BasePOI, BaseRepairablePOI]
+  spawnGamePreset: [ MonoStandard ] # KNOTGATE(Haven): faction or hostile station kept out of KGHaven
   name: 'Underground Black Market'
   minimumDistance: 18000
   maximumDistance: 25000

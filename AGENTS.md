@@ -1,3 +1,43 @@
+# KnotGate agent guidelines
+
+KnotGate (`Aphelion-Moon/KnotGate`) is a downstream of Wolfgate (`VanguardControl/Wolfgate`): a PvE and ERP server
+that shares Wolfgate's player database (characters, bank balances, bans, whitelist). Everything below the KnotGate
+section is Wolfgate's guide and still applies, with these differences. `Docs/_KG/Upstream/README.md` has the
+reasoning.
+
+## The KnotGate layer
+
+- **Layer `_KG`, marker `KNOTGATE`.** KnotGate's modules live in the same areas as Wolfgate's with `_KG` in place
+  of `_WG` (`Content.Server/_KG/<Module>`, `Resources/Prototypes/_KG/<Module>`, `Docs/_KG/<Module>`, ...). IDs take a
+  `KG` prefix. Namespaces follow the folder (`Content.Server._KG.Haven`).
+- **Wolfgate is upstream, `_WG` included.** An edit to any Wolfgate file takes a KnotGate marker under the same
+  rules as below: `// KNOTGATE(Haven): reason`, `# KNOTGATE(Haven) START: reason` / `# KNOTGATE END`, or
+  `// KNOTGATE: reason` for a standalone edit. Never add `WOLFGATE` markers or new files under `_WG` here.
+- **Prefer, in order:** a setting in KnotGate's `server_config.toml`; a new prototype or system in `_KG`; a marked
+  edit. A change every Wolfgate downstream would want, or one that needs a new switch in Wolfgate, goes to Wolfgate
+  as a pull request.
+- **Docs and checks:** `python Tools/_KG/Ci/modules.py --write` regenerates the layer's docs
+  (`Docs/_KG/NONMODULAR.md`, module READMEs); CI runs its `--check` and `--pr-check`. Wolfgate's own
+  `python Tools/_WG/Ci/modules.py --check` still runs and must stay clean; Wolfgate's `--pr-check` doesn't apply here.
+
+## The shared database
+
+- **No migrations here.** `Content.Server.Database/Migrations` is closed to KnotGate (the pull request check fails);
+  schema changes go to Wolfgate, which deploys them first.
+- **Don't disable saved content.** Species, markings, traits, loadouts, jobs and companies are saved in profiles both
+  servers load. Removing or disabling one here would strip it from characters on Wolfgate too. Content of that kind
+  goes into Wolfgate, behind a switch if Wolfgate shouldn't offer it.
+
+## Merging Wolfgate in
+
+On a branch named `upstream/<date>`: `git fetch wolfgate`, `git merge wolfgate/main`, resolve, regenerate both sets of
+docs, and move `fork_point` in `Tools/_KG/Ci/modules.yml` to the merged Wolfgate commit. If Wolfgate changed
+`Tools/_WG/Ci/modules.py`, port it into KnotGate's copy. Open the pull request
+against `Aphelion-Moon/KnotGate` with a title starting `[UPSTREAM]`. Pass `--repo Aphelion-Moon/KnotGate` to `gh`.
+Merge Wolfgate's migrations promptly, since they are already live on the shared database.
+
+---
+
 # Wolfgate agent guidelines
 
 Wolfgate is a downstream fork of Monolith (itself built on Frontier, Delta-V, CE and other layers). Every rule
@@ -63,11 +103,6 @@ Keep upstream edits to the smallest hook that works. Prefer, in order: a new `_W
 existing events, a partial class in `_WG`, then a marked edit. Don't reformat, reorder or re-indent upstream
 code, and don't delete upstream code outright; comment or branch around it inside a marked block so a merge
 shows what changed.
-
-Wolfgate has downstreams of its own (KnotGate, which shares this database). For their sake: put a feature a
-downstream might not want behind a cvar with Wolfgate's behaviour as the default, keep migrations additive
-(nullable or defaulted columns; rename or drop a release later), and keep anything saved in a profile here
-rather than in a downstream. `Docs/_WG/Downstreams/README.md` has the rules and how a downstream is set up.
 
 ## Documenting changes
 
