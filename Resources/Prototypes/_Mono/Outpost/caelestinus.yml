@@ -1,7 +1,11 @@
 - type: gameMap
   id: Frontier
-  mapName: 'Caelestinus Central'
-  mapPath: /Maps/_Mono/Outpost/caelestinus_central.yml # Mono
+  # KNOTGATE(Haven) START: KnotGate's central station is Colossus Central (same station setup as Caelestinus)
+  # mapName: 'Caelestinus Central'
+  # mapPath: /Maps/_Mono/Outpost/caelestinus_central.yml # Mono
+  mapName: 'Colossus Central'
+  mapPath: /Maps/_Mono/Outpost/colossus_central.yml
+  # KNOTGATE END
   minPlayers: 0
   # WOLFGATE(MapPool) START: the only pool map takes any player count and is the fallback.
   # Over 100 players the cap made it ineligible and round start fell back to the broken Saltern.
@@ -31,7 +35,7 @@
         id: Frontier
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Caelestinus Central'
+          mapNameTemplate: 'Colossus Central' # KNOTGATE(Haven): station name follows the map
         - type: StationDeadDrop
           maxDeadDrops: 2
         - type: StationCargoOrderDatabase

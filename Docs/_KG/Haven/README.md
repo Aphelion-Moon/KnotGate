@@ -1,7 +1,7 @@
 # Haven
 
 KnotGate's peaceful sector: Wolfgate's Standard round without faction stations, the TSF/PDV standoff or hostile
-events. The `KGHaven` game preset spawns the ordinary POIs, Caelestinus and the market, but not the TSF, PDV, USSP,
+events. The central station is **Colossus Central** (Monolith's earlier central; the `Frontier` gameMap keeps Caelestinus' station setup and points at Colossus' map). The `KGHaven` game preset spawns the ordinary POIs and the market, but not the TSF, PDV, USSP,
 MMC, Underground, ASF Lantern Post, Zeta Node or Zvezda stations, so their faction jobs never open. `KGHavenEventScheduler` runs only
 calm events (pest migrations, sentience, solar flares, bluespace cargo). The storyteller runs `KGEncounterPresetHaven`:
 friendly traffic and freight, no threats, distress calls or patrols.
@@ -41,6 +41,9 @@ their mobs. Both need a switch in Wolfgate rather than edits here.
 
 ## Non-modular edits
 
+- [`Resources/Prototypes/_Mono/Outpost/caelestinus.yml`](../../../Resources/Prototypes/_Mono/Outpost/caelestinus.yml)
+  - KnotGate's central station is Colossus Central (same station setup as Caelestinus)
+  - station name follows the map
 - [`Resources/Prototypes/_Mono/PointsOfInterest/Dungeon/zvezda.yml`](../../../Resources/Prototypes/_Mono/PointsOfInterest/Dungeon/zvezda.yml): faction or hostile station kept out of KGHaven
 - [`Resources/Prototypes/_Mono/PointsOfInterest/hokkaido.yml`](../../../Resources/Prototypes/_Mono/PointsOfInterest/hokkaido.yml): faction or hostile station kept out of KGHaven
 - [`Resources/Prototypes/_Mono/PointsOfInterest/underground.yml`](../../../Resources/Prototypes/_Mono/PointsOfInterest/underground.yml): faction or hostile station kept out of KGHaven
