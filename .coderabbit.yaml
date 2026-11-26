@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=https://storage.googleapis.com/coderabbit_public_assets/schema.v2.json
+# KNOTGATE(Ci) START: CodeRabbit review settings for KnotGate pull requests
+language: en-US
+reviews:
+  profile: assertive
+  high_level_summary: true
+  review_status: false
+  auto_review:
+    enabled: true
+    drafts: false
+    # Wolfgate merges are upstream code, reviewed in Wolfgate.
+    ignore_title_keywords:
+      - "[UPSTREAM]"
+  path_filters:
+    - "!Resources/Changelog/**"
+    - "!**/*.rsi/**"
+    - "!Resources/Maps/**"
+    - "!Resources/SharedMaps/**"
+    - "!RobustToolbox"
+  path_instructions:
+    - path: "**"
+      instructions: >-
+        KnotGate is a downstream of Wolfgate and shares Wolfgate's game database. Read AGENTS.md (the KnotGate section
+        first). Flag: any edit to a file outside a `_KG` folder that has no KNOTGATE marker; WOLFGATE markers or new
+        files added under `_WG`; any change under Content.Server.Database/Migrations (schema changes belong to
+        Wolfgate); disabling or removing content that is saved in character profiles (species, markings, traits,
+        loadouts, jobs, companies, consent), since that would strip it from characters on Wolfgate too; player-facing
+        strings that bypass Fluent; prototype IDs in _KG without a KG prefix.
+    - path: "Content.{Client,Shared}/**/*.cs"
+      instructions: >-
+        Client and Shared code runs in the SS14 content sandbox (RobustToolbox/Robust.Shared/ContentPack/Sandbox.yml).
+        Flag BinaryWriter, EndOfStreamException, ConditionalWeakTable, System.Diagnostics.Process, a collection
+        expression assigned to a List<T>, and string += char.
+    - path: "**/*.cs"
+      instructions: >-
+        Only one system may subscribe a given (component, event) pair; flag a new subscription to an upstream
+        component's event that may duplicate an existing one. Dependencies are `[Dependency] private X _x = default!;`.
+chat:
+  art: true
+# KNOTGATE END
