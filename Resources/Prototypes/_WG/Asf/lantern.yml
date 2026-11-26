@@ -2,6 +2,7 @@
   id: WGAsfLantern
   parent: BaseRepairablePOI # mobile: no ForceAnchor, it flies on its own engines
   name: 'ASF Lantern Post'
+  spawnGamePreset: [ MonoStandard ] # KNOTGATE(Haven): faction station (ASF jobs) kept out of KGHaven
   minimumDistance: 5500
   maximumDistance: 7000
   spawnGroup: Required

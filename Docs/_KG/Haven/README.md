@@ -2,7 +2,7 @@
 
 KnotGate's peaceful sector: Wolfgate's Standard round without faction stations, the TSF/PDV standoff or hostile
 events. The `KGHaven` game preset spawns the ordinary POIs, Caelestinus and the market, but not the TSF, PDV, USSP,
-MMC, Underground, Zeta Node or Zvezda stations, so their faction jobs never open. `KGHavenEventScheduler` runs only
+MMC, Underground, ASF Lantern Post, Zeta Node or Zvezda stations, so their faction jobs never open. `KGHavenEventScheduler` runs only
 calm events (pest migrations, sentience, solar flares, bluespace cargo). The storyteller runs `KGEncounterPresetHaven`:
 friendly traffic and freight, no threats, distress calls or patrols.
 
@@ -45,5 +45,6 @@ their mobs. Both need a switch in Wolfgate rather than edits here.
 - [`Resources/Prototypes/_Mono/PointsOfInterest/hokkaido.yml`](../../../Resources/Prototypes/_Mono/PointsOfInterest/hokkaido.yml): faction or hostile station kept out of KGHaven
 - [`Resources/Prototypes/_Mono/PointsOfInterest/underground.yml`](../../../Resources/Prototypes/_Mono/PointsOfInterest/underground.yml): faction or hostile station kept out of KGHaven
 - [`Resources/Prototypes/_NF/PointsOfInterest/base.yml`](../../../Resources/Prototypes/_NF/PointsOfInterest/base.yml): KGHaven spawns the ordinary POIs too
+- [`Resources/Prototypes/_WG/Asf/lantern.yml`](../../../Resources/Prototypes/_WG/Asf/lantern.yml): faction station (ASF jobs) kept out of KGHaven
 
 <!-- KNOTGATE-GENERATED END -->
