@@ -5,7 +5,7 @@ meta:
   forkId: ""
   forkVersion: ""
   time: 03/27/2026 19:43:44
-  entityCount: 10787
+  entityCount: 10786
 maps:
 - 1
 grids:
@@ -62235,26 +62235,26 @@ entities:
     - type: Transform
       pos: -24.5,63.5
       parent: 2
-  - uid: 12396
-    components:
-    - type: Transform
-      parent: 2
-      pos: -21.5,67.5
-  - uid: 12397
-    components:
-    - type: Transform
-      parent: 2
-      pos: -22.5,67.5
-  - uid: 12398
-    components:
-    - type: Transform
-      parent: 2
-      pos: -21.5,68.5
-  - uid: 12399
+  - uid: 12395
     components:
     - type: Transform
       parent: 2
       pos: -22.5,68.5
+  - uid: 12396
+    components:
+    - type: Transform
+      parent: 2
+      pos: -23.5,68.5
+  - uid: 12397
+    components:
+    - type: Transform
+      parent: 2
+      pos: -27.5,71.5
+  - uid: 12398
+    components:
+    - type: Transform
+      parent: 2
+      pos: -30.5,67.5
 - proto: SpawnPointStationRepresentative
   entities:
   - uid: 8372
@@ -76887,20 +76887,20 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -43.5,35.5
+      pos: -41.5,22.5
   - uid: 12348
     components:
     - type: Transform
       parent: 2
-      pos: -42.5,39.5
+      pos: -52.5,57.5
 - proto: ComputerCargoOrders
   entities:
   - uid: 12347
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -44.5,35.5
+      rot: -1.5707963267948966 rad
+      pos: -41.5,21.5
     - type: DeviceLinkSource
       linkedPorts:
         12346:
@@ -76911,7 +76911,7 @@ entities:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
-      pos: -41.5,39.5
+      pos: -51.5,57.5
     - type: DeviceLinkSource
       linkedPorts:
         12348:
@@ -76923,14 +76923,14 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -41.5,40.5
+      rot: 3.141592653589793 rad
+      pos: -42.5,16.5
   - uid: 12351
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
-      pos: -41.5,41.5
+      pos: -51.5,58.5
 - proto: ComputerMarketConsoleNFNormal
   entities:
   - uid: 12352
@@ -76938,40 +76938,41 @@ entities:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
-      pos: -41.5,42.5
+      pos: -51.5,59.5
   - uid: 12353
     components:
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
-      pos: -41.5,21.5
+      pos: -42.5,77.5
 - proto: CargoChuteTradeMall
   entities:
   - uid: 12354
     components:
     - type: Transform
       parent: 2
-      pos: -31.5,30.5
+      rot: -1.5707963267948966 rad
+      pos: -42.5,78.5
   - uid: 12355
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -44.5,47.5
+      rot: -1.5707963267948966 rad
+      pos: -42.5,79.5
 - proto: WGContractBoard
   entities:
   - uid: 12356
     components:
     - type: Transform
       parent: 2
-      rot: 3.141592653589793 rad
-      pos: -33.5,27.5
+      rot: -1.5707963267948966 rad
+      pos: -42.5,80.5
   - uid: 12362
     components:
     - type: Transform
       parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 33.5,34.5
+      rot: 1.5707963267948966 rad
+      pos: 24.5,51.5
   - uid: 12372
     components:
     - type: Transform
@@ -76984,12 +76985,12 @@ entities:
     components:
     - type: Transform
       parent: 2
-      pos: -33.5,28.5
+      pos: -43.5,80.5
   - uid: 12363
     components:
     - type: Transform
       parent: 2
-      pos: 33.5,35.5
+      pos: 25.5,51.5
   - uid: 12373
     components:
     - type: Transform
@@ -77007,8 +77008,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 31.5,41.5
+      pos: 31.5,56.5
   - uid: 12370
     components:
     - type: Transform
@@ -77026,22 +77026,23 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 31.5,40.5
+      rot: -1.5707963267948966 rad
+      pos: 33.5,34.5
 - proto: WGScratchTicketSeller
   entities:
   - uid: 12361
     components:
     - type: Transform
       parent: 2
-      pos: 31.5,56.5
+      pos: 30.5,56.5
 - proto: WGTraderWolfgate
   entities:
   - uid: 12364
     components:
     - type: Transform
       parent: 2
-      pos: 30.5,56.5
+      rot: 1.5707963267948966 rad
+      pos: 31.5,29.5
 - proto: WGTraderAstro
   entities:
   - uid: 12365
@@ -77049,7 +77050,7 @@ entities:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
-      pos: 24.5,51.5
+      pos: 31.5,28.5
 - proto: WGTraderFlatpack
   entities:
   - uid: 12366
@@ -77057,15 +77058,14 @@ entities:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
-      pos: 31.5,29.5
+      pos: 31.5,27.5
 - proto: WGVendingMachineLuvvits
   entities:
   - uid: 12367
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: 31.5,28.5
+      pos: 22.5,33.5
 - proto: WGTraderShipyard
   entities:
   - uid: 12368
@@ -77073,12 +77073,6 @@ entities:
     - type: Transform
       parent: 2
       pos: -13.5,56.5
-  - uid: 12377
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -39.5,20.5
 - proto: WGTraderUsedShips
   entities:
   - uid: 12369
@@ -77099,8 +77093,7 @@ entities:
     components:
     - type: Transform
       parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -44.5,49.5
+      pos: 42.5,56.5
 - proto: WGTraderFuelTechnician
   entities:
   - uid: 12376
@@ -77108,17 +77101,17 @@ entities:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
-      pos: -42.5,16.5
+      pos: 31.5,23.5
 - proto: CloningPod
   entities:
-  - uid: 12378
+  - uid: 12377
     components:
     - type: Transform
       parent: 2
       pos: 17.5,78.5
 - proto: ComputerCloningConsole
   entities:
-  - uid: 12379
+  - uid: 12378
     components:
     - type: Transform
       parent: 2
@@ -77126,12 +77119,12 @@ entities:
       pos: 17.5,77.5
     - type: DeviceLinkSource
       linkedPorts:
-        12378:
+        12377:
         - - CloningPodSender
           - CloningPodReceiver
 - proto: MedicalScanner
   entities:
-  - uid: 12380
+  - uid: 12379
     components:
     - type: Transform
       parent: 2
@@ -77139,7 +77132,7 @@ entities:
       pos: 17.5,63.5
 - proto: MedicalTechFab
   entities:
-  - uid: 12381
+  - uid: 12380
     components:
     - type: Transform
       parent: 2
@@ -77147,7 +77140,7 @@ entities:
       pos: 3.5,58.5
 - proto: MedicalBiofabricator
   entities:
-  - uid: 12382
+  - uid: 12381
     components:
     - type: Transform
       parent: 2
@@ -77155,21 +77148,20 @@ entities:
       pos: 3.5,59.5
 - proto: MedicalAssembler
   entities:
+  - uid: 12382
+    components:
+    - type: Transform
+      parent: 2
+      pos: -1.5,61.5
+- proto: WGWolfmedIvDrip
+  entities:
   - uid: 12383
     components:
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: -2.5,59.5
-- proto: WGWolfmedIvDrip
-  entities:
   - uid: 12384
-    components:
-    - type: Transform
-      parent: 2
-      rot: 3.141592653589793 rad
-      pos: -1.5,59.5
-  - uid: 12385
     components:
     - type: Transform
       parent: 2
@@ -77177,68 +77169,68 @@ entities:
       pos: -3.5,59.5
 - proto: StationAdminBankATMMedical
   entities:
-  - uid: 12386
+  - uid: 12385
     components:
     - type: Transform
       parent: 2
-      rot: -1.5707963267948966 rad
-      pos: 3.5,45.5
+      rot: 3.141592653589793 rad
+      pos: -4.5,59.5
 - proto: SpawnPointDirectorOfCare
   entities:
-  - uid: 12387
+  - uid: 12386
     components:
     - type: Transform
       parent: 2
       pos: 18.5,64.5
 - proto: SpawnPointMdMedic
   entities:
-  - uid: 12388
+  - uid: 12387
     components:
     - type: Transform
       parent: 2
       pos: 18.5,65.5
-  - uid: 12389
+  - uid: 12388
     components:
     - type: Transform
       parent: 2
       pos: 18.5,63.5
-  - uid: 12390
+  - uid: 12389
     components:
     - type: Transform
       parent: 2
       pos: 18.5,66.5
-  - uid: 12391
+  - uid: 12390
     components:
     - type: Transform
       parent: 2
       pos: 18.5,62.5
 - proto: ComputerId
   entities:
+  - uid: 12391
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -18.5,85.5
+- proto: ComputerSurveillanceCameraMonitor
+  entities:
   - uid: 12392
     components:
     - type: Transform
       parent: 2
-      rot: 3.141592653589793 rad
-      pos: -21.5,66.5
-- proto: ComputerSurveillanceCameraMonitor
+      pos: -11.5,82.5
+- proto: NFLockerSecurityFilled
   entities:
   - uid: 12393
     components:
     - type: Transform
       parent: 2
-      pos: -31.5,68.5
-- proto: NFLockerSecurityFilled
-  entities:
+      rot: -1.5707963267948966 rad
+      pos: -16.5,87.5
   - uid: 12394
     components:
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
-      pos: -29.5,59.5
-  - uid: 12395
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -29.5,58.5
+      pos: -18.5,86.5
 ...
