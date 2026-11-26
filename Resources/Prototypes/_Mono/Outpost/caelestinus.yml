@@ -4,7 +4,7 @@
   # mapName: 'Caelestinus Central'
   # mapPath: /Maps/_Mono/Outpost/caelestinus_central.yml # Mono
   mapName: 'Colossus Central'
-  mapPath: /Maps/_Mono/Outpost/colossus_central.yml
+  mapPath: /Maps/_KG/Haven/colossus_central.yml
   # KNOTGATE END
   minPlayers: 0
   # WOLFGATE(MapPool) START: the only pool map takes any player count and is the fallback.

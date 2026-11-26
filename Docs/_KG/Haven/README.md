@@ -6,6 +6,12 @@ MMC, Underground, ASF Lantern Post, Zeta Node or Zvezda stations, so their facti
 calm events (pest migrations, sentience, solar flares, bluespace cargo). The storyteller runs `KGEncounterPresetHaven`:
 friendly traffic and freight, no threats, distress calls or patrols.
 
+`Resources/Maps/_KG/Haven/colossus_central.yml` is KnotGate's own copy of Monolith's Colossus Central. Wolfgate's
+station fixtures, which Colossus predates, were added to it by a placement script (2026-11-26): cargo telepads and
+order, pallet and market consoles, safety deposit consoles, station-admin ATMs, contract boards with pads, Wolfgate's
+traders, cloning and medical machines, and spawn points for the Director of Care, medics and guards. Treat that
+placement as a first pass for a mapper to polish in game. The map is now hand-edited like any other; don't regenerate it.
+
 Most of the work is server configuration, not code. The KnotGate `server_config.toml` sets:
 
 | Setting | Value | Why |
@@ -38,6 +44,10 @@ their mobs. Both need a switch in Wolfgate rather than edits here.
 ### Localization
 
 - [`Resources/Locale/en-US/_KG/Haven/haven.ftl`](../../../Resources/Locale/en-US/_KG/Haven/haven.ftl)
+
+### Maps
+
+- [`Resources/Maps/_KG/Haven/colossus_central.yml`](../../../Resources/Maps/_KG/Haven/colossus_central.yml)
 
 ## Non-modular edits
 
